@@ -1,5 +1,5 @@
-This repository contains gitian signatures for Litecoin.
-It should be updated on each release.
+This repository contains gitian signatures for Litecoin.  It should be updated on each release.
+Random members of the public are encouraged to participate in this process in order to better secure the integrity of the Gitian builds.
 
 ## Generating Gitian Sigs
 
@@ -35,4 +35,4 @@ It should be updated on each release.
 	./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian-win32.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs.ltc/ ../litecoin/contrib/gitian-descriptors/gitian-win32.yml
 
- You may need to rename your new directory in gitian.sigs.ltc to match your username.  Submit a Pull Request against this repo to submit your signatures.
+ It is customary to rename your directories in gitian.sigs.ltc to match your github username.  Submit a Pull Request against this repo.  If you are uncertain, please see previous commits for examples.

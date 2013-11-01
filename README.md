@@ -17,13 +17,13 @@ Random members of the public are encouraged to participate in this process in or
 	export VERSION=0.8.0
 	cd ./gitian-builder
 
- Fetch and build inputs: (first time, or when dependency versions change)
+ Fetch and build inputs: (first time, zor when dependency versions change)
 
 	mkdir -p inputs; cd inputs/
 	wget 'http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.6.tar.gz' -O miniupnpc-1.6.tar.gz
 	wget 'http://www.openssl.org/source/openssl-1.0.1c.tar.gz'
 	wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
-	wget 'http://zlib.net/zlib-1.2.6.tar.gz'
+	wget 'http://downloads.sourceforge.net/project/libpng/zlib/1.2.6/zlib-1.2.6.tar.gz'
 	wget 'ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.5.9.tar.gz'
 	wget 'http://fukuchi.org/works/qrencode/qrencode-3.2.0.tar.bz2'
 	wget 'http://downloads.sourceforge.net/project/boost/boost/1.54.0/boost_1_54_0.tar.bz2'

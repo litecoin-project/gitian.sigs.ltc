@@ -11,11 +11,12 @@ Random members of the public are encouraged to participate in this process in or
 	git clone https://github.com/litecoin-project/litecoin.git
 	git clone https://github.com/litecoin-project/gitian.sigs.ltc.git
 
- From a directory containing the litecoin source, gitian-builder and gitian.sigs.ltc
+ Create Gitian Base VM Images
 
-	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
-	export VERSION=0.8.0
 	cd ./gitian-builder
+        bin/make-base-vm --arch i386
+        bin/make-base-vm --arch amd64
+        bin/make-base-vm --arch amd64 --suite precise
 
  Fetch and build inputs: (first time, zor when dependency versions change)
 
@@ -37,6 +38,11 @@ Random members of the public are encouraged to participate in this process in or
 	mv build/out/bitcoin-deps-win32-gitian-r9.zip inputs/
 	./bin/gbuild ../litecoin/contrib/gitian-descriptors/qt-win32.yml
 	mv build/out/qt-win32-4.8.3-gitian-r4.zip inputs/
+
+ Choose your GPG identity and git tag VERSION that you wish to build.
+
+	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
+	export VERSION=0.8.0
 
  Build litecoind and litecoin-qt on Linux32, Linux64, and Win32:
 

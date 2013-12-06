@@ -1,9 +1,9 @@
 --- !omap
 - out_manifest: |
     cc4e8ad8d6daeba4c4c135a0a73c35ff05740e870c50e09f433be4e173d0d137  COPYING.txt
-    1dd43973ae0269690fed5df882a335d81bbc11f601e131895a116eb81470d98b  daemon/litecoind.exe
-    70a7f9291e0e446e080657ccb70c90ec575b5b436f974c070994c416a0b00f18  litecoin-0.8.6.1-win32-setup.exe
-    162a7aa5d45c57d92522ababa0a6f3815a00b99dc8f15b2341c22d2fb7c4419c  litecoin-qt.exe
+    8463e3dcf8b66a55d4f12c04be64b144483d09102a92fa1dd2fe3ce2c3ce554e  daemon/litecoind.exe
+    cdcfa04d5b6ff5ec51541b0d98fe3a2b865baf8cb6ac2f0c3db916733f238242  litecoin-0.8.6.1-win32-setup.exe
+    5ade5e224e02e9229de77420561edc8a5e40a4f4ddf00b667c396062e3418b99  litecoin-qt.exe
     90f96a2e93b214f63d3b58ca0a844975a2ff1afe453ec3f5fb2ee20859da87f6  readme.txt
     11f006809d8da1021bb9cdcc8f4e824e16d37ed79801100044ceba2caaf0eedf  src/.gitattributes
     31d9c5e58f81b7a4269c7e3234b580e5c119e9d97f450e466e31b067592ad25a  src/.gitignore
@@ -618,8 +618,8 @@
 - in_manifest: |-
     0a1e7848995ed6809468be28f1f008fcd37d0d0b1d9d61a9133f7f995bbbc343  litecoin-desc.yml
     be21336eda77404dd78804624b804495fb3c263ade0ca74290f6b97f640a7a08  qt-win32-4.8.3-gitian-r4.zip
-    c9554ae404f0fb00e3f61ec2c996f02c206954a8fc98ce48267a4c4512bbd0f0  boost-win32-1.54.0-gitian-r6.zip
-    c5aa2860805bae063b9f58acd06ba82b60e2990017b943b8049008604ee4d584  bitcoin-deps-win32-gitian-r9.zip
+    83d7d98caafa0db69ea7cd48ce4e6fc20fd21dbf9411bac37d2fa8e0e6293c7e  boost-win32-1.54.0-gitian-r6.zip
+    29af5e9d19e4db05c80b5ef504ea757345ef7c302e670cb6aaeddf5f30607af5  bitcoin-deps-win32-gitian-r9.zip
     git:88e2a2e8988b89f905145bdc9af8c34028d0af90 litecoin
 - base_manifests: !omap
   - precise-amd64: |
@@ -717,7 +717,7 @@
       42f6fa590221cf9bb0c843f14ad24a81dab6a62c2a7671eedb2abf48e4c1cb41  libc-dev-bin_2.15-0ubuntu10.5_amd64.deb
       e12f72c19858e5816153ee36238543da6dc35fdb2b28661b3f54b7fb427208b8  libclass-isa-perl_0.36-3_all.deb
       7c262727865a74b440e59dcf1f206d674bf8b034ce68d425c7b3a3516386885c  libcomerr2_1.42-1ubuntu2_amd64.deb
-      7f26f336c7fac4b2164d879e3d1ab1f478d54722610cc23ccd6624bb1f97600d  libcurl3-gnutls_7.22.0-3ubuntu4.4_amd64.deb
+      b85fe455f160395536e7c038221a69dbff36ca89cbbc4a3026445818193211c9  libcurl3-gnutls_7.22.0-3ubuntu4.5_amd64.deb
       e0d4f5fa2136f4c5ef5077f8f1f2374ba70f844c845148133b8bdeff33e38973  libdb4.8_4.8.30-11ubuntu1_amd64.deb
       2240219ab425e2c21d15f949a848b84dbc6a0f5df0a9296336e394f26b917feb  libdb5.1_5.1.25-11build1_amd64.deb
       8d6c5ffa191a84f8fed0f330a26231de95ad7146b31ea68896cf2e446774d406  libdbus-1-3_1.4.18-1ubuntu1.4_amd64.deb

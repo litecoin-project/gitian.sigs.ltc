@@ -12,7 +12,7 @@ Random members of the public are encouraged to participate in this process in or
 	git clone https://github.com/litecoin-project/gitian.sigs.ltc.git
 
  From a directory containing the litecoin source, gitian-builder and gitian.sigs.ltc
-  
+
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=0.8.0
 	cd ./gitian-builder
@@ -32,14 +32,14 @@ Random members of the public are encouraged to participate in this process in or
 	wget 'http://releases.qt-project.org/qt4/source/qt-everywhere-opensource-src-4.8.3.tar.gz'
 	cd ..
 	./bin/gbuild ../litecoin/contrib/gitian-descriptors/boost-win32.yml
-	mv build/out/boost-win32-1.50.0-gitian2.zip inputs/
-	./bin/gbuild ../litecoin/contrib/gitian-descriptors/qt-win32.yml
-	mv build/out/qt-win32-4.8.3-gitian-r1.zip inputs/
+	mv build/out/inputs/boost-win32-1.54.0-gitian-r6.zip inputs/
 	./bin/gbuild ../litecoin/contrib/gitian-descriptors/deps-win32.yml
-	mv build/out/litecoin-deps-0.0.5.zip inputs/
+	mv build/out/bitcoin-deps-win32-gitian-r9.zip inputs/
+	./bin/gbuild ../litecoin/contrib/gitian-descriptors/qt-win32.yml
+	mv build/out/qt-win32-4.8.3-gitian-r4.zip inputs/
 
  Build litecoind and litecoin-qt on Linux32, Linux64, and Win32:
-  
+
 	./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs.ltc/ ../litecoin/contrib/gitian-descriptors/gitian.yml
 	./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian-win32.yml

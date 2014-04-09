@@ -18,31 +18,34 @@ Random members of the public are encouraged to participate in this process in or
         bin/make-base-vm --arch amd64
         bin/make-base-vm --arch amd64 --suite precise
 
- Fetch and build inputs: (first time, zor when dependency versions change)
+ Fetch source inputs: (first time, or when dependency versions change)
 
 	mkdir -p inputs; cd inputs/
-	wget 'http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.6.tar.gz' -O miniupnpc-1.6.tar.gz
-	wget 'http://www.openssl.org/source/openssl-1.0.1c.tar.gz'
-	wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
-	wget 'http://downloads.sourceforge.net/project/libpng/zlib/1.2.6/zlib-1.2.6.tar.gz'
-	wget 'ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng15/libpng-1.5.18.tar.gz'
-	wget 'http://fukuchi.org/works/qrencode/qrencode-3.2.0.tar.bz2'
-	wget 'http://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.bz2'
+        wget 'http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.9.20140401.tar.gz' -O miniupnpc-1.9.20140401.tar.gz'
+        wget 'http://www.openssl.org/source/openssl-1.0.1g.tar.gz'
+        wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
+        wget 'http://zlib.net/zlib-1.2.8.tar.gz'
+        wget 'ftp://ftp.simplesystems.org/pub/libpng/png/src/history/libpng16/libpng-1.6.8.tar.gz'
+        wget 'http://fukuchi.org/works/qrencode/qrencode-3.4.3.tar.bz2'
+        wget 'http://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.bz2'
 	wget 'https://svn.boost.org/trac/boost/raw-attachment/ticket/7262/boost-mingw.patch'
 	mv boost-mingw.patch boost-mingw-gas-cross-compile-2013-03-03.patch
-	wget 'http://releases.qt-project.org/qt4/source/qt-everywhere-opensource-src-4.8.3.tar.gz'
+        wget 'http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.tar.gz'
 	cd ..
+
+ Build intermediate dependencies and move them into inputs.
+
 	./bin/gbuild ../litecoin/contrib/gitian-descriptors/boost-win32.yml
-	mv build/out/inputs/boost-win32-1.54.0-gitian-r6.zip inputs/
+	mv build/out/inputs/boost-*.zip inputs/
 	./bin/gbuild ../litecoin/contrib/gitian-descriptors/deps-win32.yml
-	mv build/out/bitcoin-deps-win32-gitian-r9.zip inputs/
+	mv build/out/bitcoin*.zip inputs/
 	./bin/gbuild ../litecoin/contrib/gitian-descriptors/qt-win32.yml
-	mv build/out/qt-win32-4.8.3-gitian-r4.zip inputs/
+	mv build/out/qt-*zip inputs/
 
  Choose your GPG identity and git tag VERSION that you wish to build.
 
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
-	export VERSION=0.8.0
+	export VERSION=0.8.7
 
  Build litecoind and litecoin-qt on Linux32, Linux64, and Win32:
 

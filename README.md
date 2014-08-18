@@ -30,7 +30,7 @@ Random members of the public are encouraged to participate in this process in or
         wget 'http://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.bz2'
 	wget 'https://svn.boost.org/trac/boost/raw-attachment/ticket/7262/boost-mingw.patch'
 	mv boost-mingw.patch boost-mingw-gas-cross-compile-2013-03-03.patch
-        wget 'http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.tar.gz'
+        wget 'http://download.qt-project.org/archive/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.tar.gz'
 	cd ..
 
  Build intermediate dependencies and move them into inputs.

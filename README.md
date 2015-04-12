@@ -3,5 +3,5 @@ Random members of the public are encouraged to participate in this process in or
 
 ## Generating Gitian Sigs
 
-https://github.com/bitcoin/bitcoin/blob/0.10/doc/release-process.md
+https://github.com/litecoin-project/litecoin/blob/master-0.10/doc/release-process.md#perform-gitian-builds
 

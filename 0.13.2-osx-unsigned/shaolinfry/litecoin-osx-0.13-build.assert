@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    4ffd0b7e7c1b916fa495cea3a3443177140d8963dd1f9768a14225f030670cb4  litecoin-0.13.2-osx-unsigned.dmg
-    21816691b6fa5daf60c941cd1ab39f5f3b083a3a2d414a092c75823f6ec4b4fb  litecoin-0.13.2-osx-unsigned.tar.gz
-    a4b0740d6d19b2ecd028e8e7cb35c620dc579403e68c3b2e8d242dcbebf13e7c  litecoin-0.13.2-osx64.tar.gz
-    fdd7eb661a71eb040bac533b84b016b087d0e5fd376d77075b674741828c886c  src/litecoin-0.13.2.tar.gz
+    339c820f25396bc24b73e212e20cfba3715e492ed19f806c4b432ce9ee852b1f  litecoin-0.13.2-osx-unsigned.dmg
+    a5c753e458ff53ae8dfb62ab15bb7bff9eacd62f8c4f27dd8851e83d09bb16b7  litecoin-0.13.2-osx-unsigned.tar.gz
+    f916fd2fc463fe729f618682c73f30ebea6f722b1201f08598ed2b24be976214  litecoin-0.13.2-osx64.tar.gz
+    43fe140d198f9d33122108b551f19f7c946b43dd2e7cb6740f85ced36f79431c  src/litecoin-0.13.2.tar.gz
 - in_manifest: |-
     c0ce94fbc4008c7064844d4136c17dcc52e30429d99af0725ccf702eea5a802a  litecoin-osx-0.13-desc.yml
     4d399cbb7bb39d94d7a7a69a1ea0908b837cb39ce207335c84bfd7b708d68ec1  MacOSX10.11.sdk.tar.gz
-    git:35372512c612c18f2a96e16a0116f5e0de7213fd litecoin
+    git:9b92ca0c206c87a0317e8eb41f631bcc5c69470b litecoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

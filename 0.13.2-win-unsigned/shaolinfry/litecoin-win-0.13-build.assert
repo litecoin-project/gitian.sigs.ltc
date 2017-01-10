@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    9c688a1a33fb114aa1582067d01528200803e05e051801418a4b76dc4624d8bd  litecoin-0.13.2-win-unsigned.tar.gz
-    de906e53c4ac0fc7fc9591aa6c1f1cb13f5d16165661123c341cb97734f63240  litecoin-0.13.2-win32-debug.zip
-    ebce31aa3887783d208e42b4ca30c01468abb163c3fdb624227258e768397efd  litecoin-0.13.2-win32-setup-unsigned.exe
-    c851e353b3abfca437ebed17756bcf36c2df637016cbe72f096e54c56a87895c  litecoin-0.13.2-win32.zip
-    ffacb7c2bec1cbda109483949b7b62474dc0c7fcd90615cf42349db176ab8987  litecoin-0.13.2-win64-debug.zip
-    f432cee2885e6892a75e1871b7ae76d2e55229913c742e9336ad60f6fabbe6ac  litecoin-0.13.2-win64-setup-unsigned.exe
-    97985c5787bf0dce7ad7370fa4c3068a56146f1047112846302532822a5ca727  litecoin-0.13.2-win64.zip
-    fdd7eb661a71eb040bac533b84b016b087d0e5fd376d77075b674741828c886c  src/litecoin-0.13.2.tar.gz
+    106c45bb08ab58be96ff5200597e2a84742bf46f87cb3f731230d6909f983d8b  litecoin-0.13.2-win-unsigned.tar.gz
+    a2299293fd8a9760369c0b97cf334aff5109e382eee393b98169d05f3eebccd1  litecoin-0.13.2-win32-debug.zip
+    3dcf1ddc2eabb7a19913a08eccf589c59f3859dac7f2015e9b6a71ce1cb86e6b  litecoin-0.13.2-win32-setup-unsigned.exe
+    6ad388884ad2904beddb780e7e6712a3f595791168e6ab739c847d270be30db7  litecoin-0.13.2-win32.zip
+    b05baecdaed8fef9e3d2e1d59185be015e871db26a06738cc31e175365b8917b  litecoin-0.13.2-win64-debug.zip
+    4e563e63f93783184dda90391535dc23616cfc6c97c3194d145a80849271af6e  litecoin-0.13.2-win64-setup-unsigned.exe
+    242cf175a436e07d073feaeaca090b6042b1c1e134cf49d21019a9808ec39f21  litecoin-0.13.2-win64.zip
+    43fe140d198f9d33122108b551f19f7c946b43dd2e7cb6740f85ced36f79431c  src/litecoin-0.13.2.tar.gz
 - in_manifest: |-
     7af98ec2aa083378792f318ca696f8baac8ab8a1b68bd1f0416db38b1880efa0  litecoin-win-0.13-desc.yml
-    git:35372512c612c18f2a96e16a0116f5e0de7213fd litecoin
+    git:9b92ca0c206c87a0317e8eb41f631bcc5c69470b litecoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

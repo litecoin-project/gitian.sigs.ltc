@@ -1,26 +1,26 @@
 --- !omap
-- out_manifest: ! '94a7f7d94bd512fa16d47d3510db13a9efca9548f94886deffeca16477d9717b  litecoin-0.13.2-aarch64-linux-gnu-debug.tar.gz
+- out_manifest: ! '948f6a78ea1ad0547ce4dda06b4923f126a2475598344393506e25935d735d1e  litecoin-0.13.2-aarch64-linux-gnu-debug.tar.gz
 
-    508efd5d63ff62100e32689bbf5eb9377f902a25cbe76dc8307daaacfacdae87  litecoin-0.13.2-aarch64-linux-gnu.tar.gz
+    a92845153725ebc4cf98b578f57a7ce862fd4a4ae3a7a3b153e4c8e7b983dacc  litecoin-0.13.2-aarch64-linux-gnu.tar.gz
 
-    6ed9ae478c901fac479691e0e4594b0baa64ed3b56d362ac3bf984ea1450cedd  litecoin-0.13.2-arm-linux-gnueabihf-debug.tar.gz
+    c02b353a6d2a072a772281a74e794b1d7be40cdf75cc6d49ca29332a3397e37b  litecoin-0.13.2-arm-linux-gnueabihf-debug.tar.gz
 
-    7c01f4d1bdc4576010c901946f56216ff738879ada69737e2d20975d9b3ea31f  litecoin-0.13.2-arm-linux-gnueabihf.tar.gz
+    f2d151b94f3b94e4711bb6f664b9123a6151950a4a6385c8acb81b1b06a51287  litecoin-0.13.2-arm-linux-gnueabihf.tar.gz
 
-    096a421338a081b2aefe96db8439ce7dedd9b165e06c207732b70b32138ee405  litecoin-0.13.2-i686-pc-linux-gnu-debug.tar.gz
+    ede7f72af5d6c730bb1b39cd6d92831efaa61bcc67b8abb65da8645b9170d64d  litecoin-0.13.2-i686-pc-linux-gnu-debug.tar.gz
 
-    3d3bd942b1ce2e8f31ca53f79c0157a051c62765e8f209b357e72e0dc0e9566d  litecoin-0.13.2-i686-pc-linux-gnu.tar.gz
+    ab076eaa90662eb37966b88a3d216d92ea54aca2550ebc031419ffe272fa6e82  litecoin-0.13.2-i686-pc-linux-gnu.tar.gz
 
-    072c0c0e3bb5f0d484f63f4ea17631c0d9e0c509e2659f08d4411001ca1c37a8  litecoin-0.13.2-x86_64-linux-gnu-debug.tar.gz
+    984a2149831edf6d9b6f57fd741c5b7d1646164618a00b2c3fdd4e2704c9fc77  litecoin-0.13.2-x86_64-linux-gnu-debug.tar.gz
 
-    fe913c5e8477d873e54dc6ffea44ab00df8210c638cd06351c1f5f093e0c447e  litecoin-0.13.2-x86_64-linux-gnu.tar.gz
+    6481a4ab0adb0bf2ee7ed59cbbd5b1313a620442cef270c53af004e76ddc3916  litecoin-0.13.2-x86_64-linux-gnu.tar.gz
 
-    fdd7eb661a71eb040bac533b84b016b087d0e5fd376d77075b674741828c886c  src/litecoin-0.13.2.tar.gz
+    43fe140d198f9d33122108b551f19f7c946b43dd2e7cb6740f85ced36f79431c  src/litecoin-0.13.2.tar.gz
 
 '
 - in_manifest: ! '119a73d543e4d4d791d9d79dd4140682ae96a605768910333c98df6512d2a544  litecoin-linux-0.13-desc.yml
 
-    git:35372512c612c18f2a96e16a0116f5e0de7213fd litecoin'
+    git:9b92ca0c206c87a0317e8eb41f631bcc5c69470b litecoin'
 - base_manifests: !omap
   - trusty-amd64: ! '1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
 

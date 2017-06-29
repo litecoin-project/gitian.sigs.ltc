@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    59b05b3fff921b2af6c8928a6fcc78ef09a0e39a6a817bdb576c61bb96d526ac  litecoin-0.13.3-aarch64-linux-gnu-debug.tar.gz
-    63079014d15f4becaf991b076d57337921284e703d10e34b04c77044b955eef4  litecoin-0.13.3-aarch64-linux-gnu.tar.gz
-    08e623a033360229ab21ac57b9e512e94506160a8c6bfe9b3d74c51b1ba8dfa6  litecoin-0.13.3-arm-linux-gnueabihf-debug.tar.gz
-    0756bd3ba7524cabecb0967da1001cd65c5fd48e4f6a7252158f3ea78218964c  litecoin-0.13.3-arm-linux-gnueabihf.tar.gz
-    063d7fab651281ffd5e457763f24af1003e104012d9ae06426b6ee7f7fff81d3  litecoin-0.13.3-i686-pc-linux-gnu-debug.tar.gz
-    dbc53fab393574ce25f9f2c6276a0f4cb6b5fe6c588112d3de088dea04ba2a22  litecoin-0.13.3-i686-pc-linux-gnu.tar.gz
-    f51c6f54865e9c6d08bc2ae6131aae8d6d93e6afc25d9b95b261861c145831e5  litecoin-0.13.3-x86_64-linux-gnu-debug.tar.gz
-    65d626332252600b97ab15378cf82c8c01843dce69ced99c63714d055dcf25a1  litecoin-0.13.3-x86_64-linux-gnu.tar.gz
-    264415635c47640504df8c0a4aa152443410f8283a3e76fcaedc9fbb326f2cf4  src/litecoin-0.13.3.tar.gz
+    f98b820a7ad4de2b6fd2f158e8e866067903f67afa60217fb45da3682cd1666d  litecoin-0.13.3-aarch64-linux-gnu-debug.tar.gz
+    860fab88aa90a59a57405259589f32f1904abde24e7b0bb25dfe115f8b6ebabb  litecoin-0.13.3-aarch64-linux-gnu.tar.gz
+    6c93c942a560c723cbb105000ee058c4b15c692ebaba6c6b50f0859cdd4a734f  litecoin-0.13.3-arm-linux-gnueabihf-debug.tar.gz
+    15bd576d4e7414dd6706a8e453adfc2348dabfd184bb9259cc6117a78d95b544  litecoin-0.13.3-arm-linux-gnueabihf.tar.gz
+    e627a24783a9c58bd6417681d2c9d1d7c0515a1b58d1fb889f00b499d1032f77  litecoin-0.13.3-i686-pc-linux-gnu-debug.tar.gz
+    a37797c45e87a713cafea2ae23b80669551a54dde7b4d87c904857764140c0b8  litecoin-0.13.3-i686-pc-linux-gnu.tar.gz
+    106362fa7eb77f7753b2ddd058e539b40aff6455bf0b269b0834ed2ae58eef04  litecoin-0.13.3-x86_64-linux-gnu-debug.tar.gz
+    2fb2149369e415c7a0d6a02b7bb3016d9c7599f80602733ecd70f71bf291db64  litecoin-0.13.3-x86_64-linux-gnu.tar.gz
+    9b32cebc3dcae5de1bea53e395937ef3de1750ccde5da4204895df2789a36490  src/litecoin-0.13.3.tar.gz
 - in_manifest: |-
     119a73d543e4d4d791d9d79dd4140682ae96a605768910333c98df6512d2a544  litecoin-linux-0.13-desc.yml
-    git:dab7cd087bee241e90f72518dcbdab149f227887 litecoin
+    git:f32743e194a3ebe327c47e29e3a1c944ea929d35 litecoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -109,7 +109,7 @@
       6fd8d18c130c16ffc6a01b37480b6a6a1ac61fd7695d042409784463f5fc7fc7  iw_3.4-1_amd64.deb
       17b7d3ada3e39bcb566c5cfd38d8b8c54e43f881d7b0721ab8a6c4d3323d24c7  kbd_1.15.5-1ubuntu1_amd64.deb
       997ddef05a1f2afe5eb96289a526bef665157e7fc481a77215bbf67277ae47ff  keyboard-configuration_1.70ubuntu8_all.deb
-      f231207b2c5830225430c2726e12988d2a8e996832d1c0503d65903c381026f7  klibc-utils_2.0.3-0ubuntu1.14.04.2_amd64.deb
+      38fccce563e5229df088fdc2877a612bf30f99ba245f1da1658f06d4e6a7d639  klibc-utils_2.0.3-0ubuntu1.14.04.3_amd64.deb
       42782082d765af2c3fa36cebf012bb7802b5a8681cc064b105dd75e8f8208b6b  kmod_15-0ubuntu6_amd64.deb
       f0c4e5011613a677ff11bbac444953f8fa273b159485013e3368cffbbf89e0df  krb5-locales_1.12+dfsg-2ubuntu5.3_all.deb
       c4f8ab31fccf622a849c8b67584c4b9c1fad56fb7c73831e111bdf56561455e4  language-pack-en_1%3a14.04+20160720_all.deb
@@ -217,7 +217,7 @@
       2756bd0846c31621b2942631475b4f17668c1d6d2a5c62be832969b5dbf1627a  libjson-c2_0.11-3ubuntu1.2_amd64.deb
       599904208ec5572cbda5bc320f0b4aa34950814b81b7eda4c564ddc54624078b  libk5crypto3_1.12+dfsg-2ubuntu5.3_amd64.deb
       1ea032b0259f570d9189c8e776384445149b8ae5599d4b8d6c71a958caaf993c  libkeyutils1_1.5.6-1_amd64.deb
-      750afa09fa2a22a515aeed8be30010255f130d8c9edfc30bcbaea2bc13a7170c  libklibc_2.0.3-0ubuntu1.14.04.2_amd64.deb
+      4f74e71c8b8b4470c890251fbcbd838149fe6538daf885ba909548be2c722415  libklibc_2.0.3-0ubuntu1.14.04.3_amd64.deb
       24f2f9a1a4ef12a86c7f1c7d97c7acc5e9ddb550e5a1d8457f6dc70d4dfed95e  libkmod2_15-0ubuntu6_amd64.deb
       932507ad3c42be2babec01f9c469a1379704a380bc0b8bcf9ae07675e25f0063  libkrb5-26-heimdal_1.6~git20131207+dfsg-1ubuntu1.1_amd64.deb
       38a6cc00ff90e3b21ba8e9c4ee6408a2e528931e2c2fae49dd0647878fa8a0ea  libkrb5-3_1.12+dfsg-2ubuntu5.3_amd64.deb
@@ -432,6 +432,7 @@
     5dc2dc482dc96dac714057334bd8931ef3e0097c95138519c42d3774efaf6fc8  download-stamps/.stamp_fetched-libXext-libXext-1.3.2.tar.bz2.hash
     ceed44167ea230ddd9d63d5b8e9c5d50a1461345be20204b4b33c4d558d457c3  download-stamps/.stamp_fetched-libevent-libevent-2.0.22-stable.tar.gz.hash
     969244f07df6dd122c0058d3a5b3f536fedfe5c0616767a3403d1154f61ec80d  download-stamps/.stamp_fetched-libxcb-libxcb-1.10.tar.bz2.hash
+    40708024b9c3d26e55007cb5fa4b61cc909c84178ceb599eafbab0ac6aaaf6eb  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-2.0.20170509.tar.gz.hash
     be1522c6ddcf549abfba17f2b05148aa433e7c18806e355ea4116c17e8022670  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-2.0.tar.gz.hash
     dcc59df61c91326e1883572b08e395950055b38308d9e79d2dce30d5f5cacf04  download-stamps/.stamp_fetched-native_biplist-biplist-0.9.tar.gz.hash
     138140257e5a543b02d78c4d4fde0cdebbf36941fd82d5ebdce00adc2d1c302b  download-stamps/.stamp_fetched-native_ccache-ccache-3.2.5.tar.bz2.hash
@@ -460,6 +461,7 @@
     6569a02eb31c2827080d7d59001869ea14484c281efab0ae7f2b86af5c3120b3  libdmg-hfsplus-v0.1.tar.gz
     71c2c49f0adadacfdbe6332a372c38cf9c8b7895bb73dabeaa53cdcc1d4e1fa3  libevent-2.0.22-stable.tar.gz
     98d9ab05b636dd088603b64229dd1ab2d2cc02ab807892e107d674f9c3f2d5b5  libxcb-1.10.tar.bz2
+    d3c368627f5cdfb66d3ebd64ca39ba54d6ff14a61966dbecb8dd296b7039f16a  miniupnpc-2.0.20170509.tar.gz
     d434ceb8986efbe199c5ca53f90ed53eab290b1e6d0530b717eb6fa49d61f93b  miniupnpc-2.0.tar.gz
     ce1aa412211610c63d567bbe3e06213006a2d5ba5d76d89399c151b5472cb0da  native_ds_store-c80c23706eae.tar.bz2
     87ad827e66790028361e43fc754f68ed041a9bdb214cca03c853f079b04fb120  native_mac_alias-1.1.0.tar.bz2
@@ -484,6 +486,8 @@
     82aac0af7a288ac69ec81db06eed354a3ae9c380cddd46c210b680d7aa24e5fd  aarch64-linux-gnu/libevent/libevent-2.0.22-7a324093811.tar.gz.hash
     df84591bf052c1e1059db66693384a892774978705e8c456cb673d3ab2868f10  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0-30b82f324e6.tar.gz
     dd2f4d8fc8227980a05ea369542e6b0ccbe2b7132bb091f364719b3aba137739  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0-30b82f324e6.tar.gz.hash
+    667a71b43a53a5d01c867d0fc7536f552ccf3f844acf2cb7629ad84f7d6d3ffe  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0.20170509-5c0e77d608d.tar.gz
+    7b04910fba316ef8fb136b20e6aaa3b726e06d73d5a026848005cc07a3eba116  aarch64-linux-gnu/miniupnpc/miniupnpc-2.0.20170509-5c0e77d608d.tar.gz.hash
     752d3c09896d3c84b8c93a02083e9dc71a2fed127b766334269120c14a0682e5  aarch64-linux-gnu/native_ccache/native_ccache-3.2.5-d0aabd873c3.tar.gz
     bfdc082d62a28130afaabcb8cb707a5c5f5e183c762ccb99d4b0e31bd1aff60a  aarch64-linux-gnu/native_ccache/native_ccache-3.2.5-d0aabd873c3.tar.gz.hash
     f30a7d749188f9f0064fd943069703bc31447d0614b6f0eab6c65743df9a11da  aarch64-linux-gnu/native_comparisontool/native_comparisontool-8c6666f-e7a8c56a928.tar.gz
@@ -506,6 +510,8 @@
     1e471ab6bf10d74172314362bd3037a788af55c98e3a9b7a9d7a028fd9fec539  arm-linux-gnueabihf/libevent/libevent-2.0.22-d5d81925b97.tar.gz.hash
     e7fb50935802a5a6859bc67c38558224cf3e7111ec91da57e6150214b6c68cfe  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0-7799df2bf49.tar.gz
     16ef499f2c158e78aa1021454010a6490ab7cc3a8b1d7677e714170988001c1f  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0-7799df2bf49.tar.gz.hash
+    4b09d16e7e233a529d73a0954b6b8741ec2aaa1889b60df7dc142d8ed16e5827  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0.20170509-02f4dee4adc.tar.gz
+    1d5d14507f74b7d48c13714e5edeed6cd06deae1dc7bfe5c4c7f421d6b385192  arm-linux-gnueabihf/miniupnpc/miniupnpc-2.0.20170509-02f4dee4adc.tar.gz.hash
     f2b59bbb034b313d24663812d9cd1ef9e7c31c84de5dbec02072c72b59e0da1d  arm-linux-gnueabihf/native_ccache/native_ccache-3.2.5-d0aabd873c3.tar.gz
     2e277b4a5788e992fe5e0c73e0fd31939997279a472848a25f0a50864682b313  arm-linux-gnueabihf/native_ccache/native_ccache-3.2.5-d0aabd873c3.tar.gz.hash
     f30a7d749188f9f0064fd943069703bc31447d0614b6f0eab6c65743df9a11da  arm-linux-gnueabihf/native_comparisontool/native_comparisontool-8c6666f-e7a8c56a928.tar.gz
@@ -544,6 +550,8 @@
     1f587e60f304a9540fde4082416720621a449852dc543d99cd3323dab6535378  i686-pc-linux-gnu/libxcb/libxcb-1.10-2e31e3bcb49.tar.gz.hash
     a4eb675d42eb1ad281a561984eaa40ec71cf11d2ce93141b7fe4796c99becb0a  i686-pc-linux-gnu/miniupnpc/miniupnpc-2.0-6ef9d4d3640.tar.gz
     cec38a79eab18963a3eda4693c06287b05f728e5b2e19ef0db72889f91151aa7  i686-pc-linux-gnu/miniupnpc/miniupnpc-2.0-6ef9d4d3640.tar.gz.hash
+    414d9c99bddd2b800bb4bd1fdacdf1b9e83cfc1cf6966929ab0cef274288b06d  i686-pc-linux-gnu/miniupnpc/miniupnpc-2.0.20170509-8ed1d7d0a9a.tar.gz
+    0ea0faff11d1100684dc7fa5fa2c5ab36c8033da95dd20e86cdbd967e778358d  i686-pc-linux-gnu/miniupnpc/miniupnpc-2.0.20170509-8ed1d7d0a9a.tar.gz.hash
     ca95ff4fdcec0d7d34fb2ab49f892dc29d894d52fa3061f4c8daf9989704b0c1  i686-pc-linux-gnu/native_ccache/native_ccache-3.2.5-d0aabd873c3.tar.gz
     909d824f70ae41017a409de1ad5891fc5465e4fe720eac9c24ac27b61671665b  i686-pc-linux-gnu/native_ccache/native_ccache-3.2.5-d0aabd873c3.tar.gz.hash
     f30a7d749188f9f0064fd943069703bc31447d0614b6f0eab6c65743df9a11da  i686-pc-linux-gnu/native_comparisontool/native_comparisontool-8c6666f-e7a8c56a928.tar.gz
@@ -592,6 +600,8 @@
     3a6ba141a5ab04e678e5a2bbb8c2fc3505f250b60bbf4ce4656630ff0ac19cfe  x86_64-linux-gnu/libxcb/libxcb-1.10-d1fd227e5e1.tar.gz.hash
     63c53da1af61434feb0d448fe3865df99996e71630c0bbad2fe2de5649f69d13  x86_64-linux-gnu/miniupnpc/miniupnpc-2.0-19f7083c67a.tar.gz
     7285a3e25fc045288979b39f7c0b901f4d54568c043afebcc952df843e3373ba  x86_64-linux-gnu/miniupnpc/miniupnpc-2.0-19f7083c67a.tar.gz.hash
+    f1414f0732d95d0b40027662afa153b42537674f69f8f58cddf2bc1a9eaacba2  x86_64-linux-gnu/miniupnpc/miniupnpc-2.0.20170509-dd8f268b223.tar.gz
+    342ff97815ff571754d800a1e2ede7be6d906d19f1fbdf39990f711d52dac893  x86_64-linux-gnu/miniupnpc/miniupnpc-2.0.20170509-dd8f268b223.tar.gz.hash
     c8504a2e12b46fe2250bf69faad4ea8896d4f7d185bc05a18dc19303cafa8076  x86_64-linux-gnu/native_ccache/native_ccache-3.2.5-d0aabd873c3.tar.gz
     5c71ca9d46f15b78bb54b23f386c5523c6518be401206a917909ee747366d900  x86_64-linux-gnu/native_ccache/native_ccache-3.2.5-d0aabd873c3.tar.gz.hash
     f30a7d749188f9f0064fd943069703bc31447d0614b6f0eab6c65743df9a11da  x86_64-linux-gnu/native_comparisontool/native_comparisontool-8c6666f-e7a8c56a928.tar.gz
@@ -616,7 +626,7 @@
     9f9ddc1e9d403e9ac7b25839a8dd51a6efb921aaf1ef5e8cc5cb8a689283cdfa  x86_64-linux-gnu/xtrans/xtrans-1.3.4-aa44e34f28e.tar.gz.hash
     33b590fcafff93651978251404e764494bdd3a526ca590434b2b7cf2300abede  x86_64-linux-gnu/zeromq/zeromq-4.1.4-826d0021e6a.tar.gz
     fba790c096291ac7ab279bef54d818369b653eb42788e51b9f1fe1f985b17dba  x86_64-linux-gnu/zeromq/zeromq-4.1.4-826d0021e6a.tar.gz.hash
-- release: 0.13.3rc1-linux
+- release: 0.13.3rc2-linux
 - name: litecoin-linux-0.13
 - type: build
 - optionals: 

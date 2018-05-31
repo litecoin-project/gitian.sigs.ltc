@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: '93b451d180b2c60495595df00c303de6b8e135187d0d77bd542b9df917f50286  litecoin-osx-signed.dmg
+- out_manifest: 'e33fab8afa3c03eabcd958f4f7c2a4fdfdaf1f65eff7a861135e19fbc68423ad  litecoin-osx-signed.dmg
 
 '
 - in_manifest: |-
     c8dec8060e4de36612d75306d8316134234958627f0b6d6167719a21b483ec8f  litecoin-dmg-signer-desc.yml
     a1d5421947306e175e168731611f854d05ea99ac1ad697110ee6977bd8e36537  litecoin-osx-unsigned.tar.gz
-    git:7d6c6f9277629ce20f7c54f989619db9f5b587eb signature
+    git:9ff98fe317d5befffa83eb7244114dd842d60391 signature
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -80,11 +80,11 @@
       bac82bdec3c79ba3522f3723b49ea09b5642f35a605385f38ae2d7047878028f  gzip_1.6-3ubuntu1_amd64.deb
       a024f667b77de7b72f614031fe33c096b4fce4d668c5866d404efc8e0bea11ed  hicolor-icon-theme_0.13-1_all.deb
       20947b04ab3ddf48d10e733432734065f0ee4fa5ac1469bf707f18b168bf57fa  hostname_3.15ubuntu1_amd64.deb
-      694a60bba0a8147b8835ca7e67c4099f401442ab57de1dcde63eef314621d2cf  ifupdown_0.7.47.2ubuntu4.4_amd64.deb
+      ee0b7b8e244b54201e1b96c723e541452dc9cb8c528106995f15e6ce469ed12e  ifupdown_0.7.47.2ubuntu4.5_amd64.deb
       15a300192c971ecb30cf5cede7af28adfd27f0939e7fa7a183de7f02e35109ee  imagemagick_8%3a6.7.7.10-6ubuntu3.9_amd64.deb
       eebcd87b62e92a191455f6e647946b1c142fdd719c8db6e091eeb063b45bf6eb  imagemagick-common_8%3a6.7.7.10-6ubuntu3.9_all.deb
-      e2b0df2286ad4df8c36852e5c139753a37475fe0be3d116c9fd13f4ebf322356  initramfs-tools_0.103ubuntu4.10_all.deb
-      8cc289e3ec0329221406591931f2c48bc3ba9ebdac49266304470eeb3082ec5d  initramfs-tools-bin_0.103ubuntu4.10_amd64.deb
+      b2fe90dbea4e1cee4c3581ef3cba020bdc130f8f27eebd3c401aea24c46d4333  initramfs-tools_0.103ubuntu4.11_all.deb
+      11c485299e4f5f94dc8ac5c0a2af8843cb35b10576d799fde97b243c41914bab  initramfs-tools-bin_0.103ubuntu4.11_amd64.deb
       f60aafa0f9cde70856061531d0eec21375d8e60f0b61b0eb0dc084d47d0ab660  initscripts_2.88dsf-41ubuntu6.3_amd64.deb
       a67ca65935220a63967d22112fe6d5d60cfaf11cc2058c3d80bc2b67f3b4ff54  init-system-helpers_1.14ubuntu1_all.deb
       c645ec87fe839f2a1f120d838bdff9a30e46fecd4b21c8293d2f6e4d5cd6fec2  insserv_1.14.0-5ubuntu2_amd64.deb
@@ -247,11 +247,10 @@
       d180cef65a6aadde66e9ab0fed9c61fd800eae4922f95a7fef8d20d519b23cfb  libpci3_1%3a3.2.1-1ubuntu5.1_amd64.deb
       c0762701ab221478e2cd11d550ba5749f200fcf2fb70a4b3b9a1d21154213636  libpcre3_1%3a8.31-2ubuntu2.3_amd64.deb
       46b43fd1b002f69a8cd94f9a60b4bc4d4c341cbe7aeb0ab085ed2479211c2689  libpixman-1-0_0.30.2-2ubuntu1.1_amd64.deb
-      34eacac5a3b94a6f68febe6131659ab4e0a4a33139b89e1c4d90caf33779bafd  libplymouth2_0.8.8-0ubuntu17.1_amd64.deb
+      da23f012fc50750dfa0bac1b11e43a02e7b31086ef57d4e57b9b162e7680e253  libplymouth2_0.8.8-0ubuntu17.2_amd64.deb
       726396295296d23212e9a5f37ad609d0744857f8c656ddd4492c2d007ccc4389  libpng12-0_1.2.50-1ubuntu2.14.04.2_amd64.deb
       c60d9fed458d5fdaded1e7d1e18218b71308cb23a3b7f7043665ec9cb9560f0c  libpod-latex-perl_0.61-1_all.deb
       39568e2bbf8f85f7dc372e778ce2aaf8a2e902baf9c1c62eabdf06169c747719  libpopt0_1.16-8ubuntu1_amd64.deb
-      b50edf950ed09155c20372ece13e9bbce43706273e46f6fe503f10f4db8a1957  libprocps3_1%3a3.3.9-1ubuntu2.2_amd64.deb
       67c55c910e235a3b4bb59de31de0b42f7ad85ac58e5ead80c1be35b16b37a321  libprocps3_1%3a3.3.9-1ubuntu2.3_amd64.deb
       433da775f1fba87c42096d6c11af11dacfc677c8793d4e2b201b32ab9af5755f  libpython2.7_2.7.6-8ubuntu0.4_amd64.deb
       200047678e006f4baf27b44b860e7e710ce39be8acb9bba69c6500483034d6bb  libpython2.7-dev_2.7.6-8ubuntu0.4_amd64.deb
@@ -370,8 +369,7 @@
       aae27f6922936ad693c55ee0a002aab73c86f355d975128bf0756a022c6ec31e  perl-base_5.18.2-2ubuntu1.4_amd64.deb
       4ca3431a641a666b7cae00e51db843e64fd2bad740b0c5eeaf7392f4d18d4ccb  perl-modules_5.18.2-2ubuntu1.4_all.deb
       6402dfbf3750549f4cdf4a20eca50e8ae01974b310e79cc4dd7663bb14ba878b  pkg-config_0.26-1ubuntu4_amd64.deb
-      e2fa072ecb8bf28bed413d2f524f77768d47792a9214c8fc29935dbf4eb0051c  plymouth_0.8.8-0ubuntu17.1_amd64.deb
-      180178448e18299865a357159992ad82d4c1fbc4fe44cd4657104eb1a16460cf  procps_1%3a3.3.9-1ubuntu2.2_amd64.deb
+      b33f4203145f1833c1be76cee7cefc38922354142b96a1ffabd061aded7fb25e  plymouth_0.8.8-0ubuntu17.2_amd64.deb
       96b7b50b0c377086f9d75f11e9511db56c6e71812e2451fddf46db8066a963ac  procps_1%3a3.3.9-1ubuntu2.3_amd64.deb
       c02aec4bdf3cf2d99a2606ce35bd90b0420251d2a796e668f4108c1f1c97e648  python2.7_2.7.6-8ubuntu0.4_amd64.deb
       d508f50de23b8d2dcaf5dd06b48ca284345bcd4e9cc4d1ac8ef764c0c3d95160  python_2.7.5-5ubuntu3_amd64.deb

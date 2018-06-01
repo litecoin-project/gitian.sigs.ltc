@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: '93b451d180b2c60495595df00c303de6b8e135187d0d77bd542b9df917f50286  litecoin-osx-signed.dmg
+- out_manifest: 'e33fab8afa3c03eabcd958f4f7c2a4fdfdaf1f65eff7a861135e19fbc68423ad  litecoin-osx-signed.dmg
 
 '
 - in_manifest: |-
     c8dec8060e4de36612d75306d8316134234958627f0b6d6167719a21b483ec8f  litecoin-dmg-signer-desc.yml
     a1d5421947306e175e168731611f854d05ea99ac1ad697110ee6977bd8e36537  litecoin-osx-unsigned.tar.gz
-    git:7d6c6f9277629ce20f7c54f989619db9f5b587eb signature
+    git:9ff98fe317d5befffa83eb7244114dd842d60391 signature
 - base_manifests: !!omap
   - trusty-amd64: |
       5759b649a6e909f838609e1b88660c7b33f2bafd205249139463b98856346c7b  amd64-microcode_2.20131007.1+really20130710.1_amd64.deb
@@ -138,6 +138,7 @@
       2171e4cf469578d183d727d7341a735a5b624e4afdbddc5b8d05aa7a9cff6420  librsvg2-bin_2.40.2-1_amd64.deb
       09d39872d594d32c609f6ee3d6c703e614c43b953c4257f477aca8c84e229a95  libsigsegv2_2.10-2_amd64.deb
       9b97be921a438627ec17e0d23d7d52ad35915c5b66f9b119814d4719b2137868  libssl1.0.0_1.0.1f-1ubuntu2.25_amd64.deb
+      50e8c811b29d2b67448feca1078f6cb7174c333b4473059bd0c99283ec456763  libssl-dev_1.0.1f-1ubuntu2.25_amd64.deb
       ac8a577e160195f8788a7338b67fb56708094178f2094e1c3468299247e893ea  libstdc++-4.8-dev_4.8.4-2ubuntu1~14.04.4_amd64.deb
       dd1817ac8c7172920926ac464fc64d90abe96a22520684bc2395cf9e7d6b34dc  libstdc++6_4.8.4-2ubuntu1~14.04.4_amd64.deb
       58442bb3a98f39798d59d4f5e6fa3fa44877ef78022d28015f4800909f1e7285  libsvn1_1.8.8-1ubuntu3.3_amd64.deb

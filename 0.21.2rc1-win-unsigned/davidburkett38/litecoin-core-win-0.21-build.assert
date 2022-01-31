@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    41edf496d8f4ffd2baeee487dd62baa4c2bde3c6b5686fa6e6e66311451241c0  litecoin-0.21.2rc1-win-unsigned.tar.gz
-    3ea1bbc005fb66fac3e4e8e0dbf8294440a7ae377a3cd6f85a2853ce1dda6fc4  litecoin-0.21.2rc1-win64-debug.zip
-    27c863aaaed5318df3ac5c04a968292866a29c9b2506849760f5bb15d3dd0168  litecoin-0.21.2rc1-win64-setup-unsigned.exe
-    0928c2fe928d2a49a0e1a61b2d4d0a5feab65793be60d1bd6511778ddfe7f8eb  litecoin-0.21.2rc1-win64.zip
-    c250c064e325f8f91c4e27e8c787e3c3689b76a88cbd62e0cb8e2755e32772e7  src/litecoin-0.21.2rc1.tar.gz
+    247153d7fbcffb3b1d2924ae6421c4ffebd9a0a75e66fa0aa93cbb687bb7590e  litecoin-0.21.2rc1-win-unsigned.tar.gz
+    d5feac7ec28baa0a85d20d1c765690a4ace5a2259f112ec1baffa81cede03a39  litecoin-0.21.2rc1-win64-debug.zip
+    81e1b3955733efca5bca0bfed8aaaf2b20734fe81d723146e302f95d795948e2  litecoin-0.21.2rc1-win64-setup-unsigned.exe
+    c6c8e5cdcd178c84a8ae77c9e12a5cfc1c2b6bc209efac6e5215ddb3413faf88  litecoin-0.21.2rc1-win64.zip
+    51c35efa6de2f938dd225da734262e314aeb375dec743705ceacec26b2319e7f  src/litecoin-0.21.2rc1.tar.gz
 - in_manifest: |-
     571d5c4633b1267b4f7bebebdf4cf6b7643d1cfd9d3b585ff3a8460e809d6c47  litecoin-core-win-0.21-desc.yml
-    git:06e75c788a64cbfdc9bb5a0d99b3bb5b0b1971f9 litecoin
+    git:633900e2ca6639a96cdf09e40f592a3b781b811a litecoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb

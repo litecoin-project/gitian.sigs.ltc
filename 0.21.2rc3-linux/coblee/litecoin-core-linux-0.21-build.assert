@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    16ba4b91233350af4f5dbf665c4d1fa8fe5667f257ec797435c2b9bde80ca8c6  litecoin-0.21.2rc3-aarch64-linux-gnu-debug.tar.gz
-    14fe53e20148f0c21823d79ee3dcbcdb1f2a4a3619cfa63fa3af5df1f86aa68e  litecoin-0.21.2rc3-aarch64-linux-gnu.tar.gz
-    33bffc354331fee5c8a4bff344f56b3696107e787fcc87233285ba976eb88190  litecoin-0.21.2rc3-arm-linux-gnueabihf-debug.tar.gz
-    562aeaf2e9685b2aba4015428a360c05ecbb9234d3dbc0614bab8c7d748914d7  litecoin-0.21.2rc3-arm-linux-gnueabihf.tar.gz
-    527544e430ee09cfe26b6892ad81fe91783af977955295916e8356884b5d716b  litecoin-0.21.2rc3-riscv64-linux-gnu-debug.tar.gz
-    e8ea868e3cb5f0d0ecae14a171e9338cef02c76c6bfab686bea2685938c9403d  litecoin-0.21.2rc3-riscv64-linux-gnu.tar.gz
-    8a9bc820d7cd994e9fc7ac60b89abb325239643d89d2f6501140f145195ef2f6  litecoin-0.21.2rc3-x86_64-linux-gnu-debug.tar.gz
-    f46197c14cbf193cbf8310dddf4f64691745ce2081d3da83fbea12a66d583b14  litecoin-0.21.2rc3-x86_64-linux-gnu.tar.gz
+    724c6f0c677949743e8f5e205323587b3cb03176dd39e17a5a6760765d9a2949  litecoin-0.21.2rc3-aarch64-linux-gnu-debug.tar.gz
+    269946db17c567bc3596f01a0c6b6cc4df4f1ab6d9dc4b77d412a099cc50eb99  litecoin-0.21.2rc3-aarch64-linux-gnu.tar.gz
+    b1d064b8827905fa46ec3de00f9d746177d926649e993861b1521d1ad61812b1  litecoin-0.21.2rc3-arm-linux-gnueabihf-debug.tar.gz
+    b63bdabc8a7141e415f92c36aa7ac6600f90483061a394e5dc53d1a715ca8f7a  litecoin-0.21.2rc3-arm-linux-gnueabihf.tar.gz
+    693fe0433165d89844c1cb902510925376899f05d9a0d2d217217469ab0e56b5  litecoin-0.21.2rc3-riscv64-linux-gnu-debug.tar.gz
+    6515b71133fcb8596eb6bcc01571549d6ab7204d0a77b215379f9e774e34ad6b  litecoin-0.21.2rc3-riscv64-linux-gnu.tar.gz
+    21c6f1166fe19d8f8c862afc397f7d1a2b955e99d507896d27e28065c4aede53  litecoin-0.21.2rc3-x86_64-linux-gnu-debug.tar.gz
+    17717635ffad1c5ffa18196d44f05a0696e36d9b1dd5036deaa29ccf96ce172c  litecoin-0.21.2rc3-x86_64-linux-gnu.tar.gz
     35e3b5a322a754ac5f67485c4e94244e9d153afa4cdb593dfd81e87f2f6a8ade  src/litecoin-0.21.2rc3.tar.gz
 - in_manifest: |-
     481f65eeba6897ede0343f2d832a3149085daa933051631d570708bbd818835c  litecoin-core-linux-0.21-desc.yml

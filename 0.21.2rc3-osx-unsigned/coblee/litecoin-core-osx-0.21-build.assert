@@ -1,8 +1,8 @@
 --- !!omap
 - out_manifest: |
-    c7823358278bfe5dfe2f418d1ba5a4a41f74c83e57daa5f8abdb98e9c490abd2  litecoin-0.21.2rc3-osx-unsigned.dmg
-    bb4a1aa12a66ad0263748b937e95013fb8e5d46f5e4443f76b6dfd55b710de39  litecoin-0.21.2rc3-osx-unsigned.tar.gz
-    917946768c9ceb9e5d723e4bc1c552332972029f6e142a38ecd09fd8b58dc98f  litecoin-0.21.2rc3-osx64.tar.gz
+    82bf29809ef9798d72224262e8eb5dc00ca23871ea56de71902fc7d92fda7738  litecoin-0.21.2rc3-osx-unsigned.dmg
+    53846155fe758563d5ea00a4d4f97d04899401816ef50d27e45252266545f158  litecoin-0.21.2rc3-osx-unsigned.tar.gz
+    b1ba7cee69116c2744c7a1a99aa1eac0bf9279737ab418360cd74e68a6ee9a12  litecoin-0.21.2rc3-osx64.tar.gz
     35e3b5a322a754ac5f67485c4e94244e9d153afa4cdb593dfd81e87f2f6a8ade  src/litecoin-0.21.2rc3.tar.gz
 - in_manifest: |-
     f1d8cf661f8d6491d2c10e5f6e462d938b738df5daab27cfdbc0f372dcbc2385  litecoin-core-osx-0.21-desc.yml

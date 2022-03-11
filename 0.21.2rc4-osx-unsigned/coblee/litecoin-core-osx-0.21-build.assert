@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    82bf29809ef9798d72224262e8eb5dc00ca23871ea56de71902fc7d92fda7738  litecoin-0.21.2rc3-osx-unsigned.dmg
-    53846155fe758563d5ea00a4d4f97d04899401816ef50d27e45252266545f158  litecoin-0.21.2rc3-osx-unsigned.tar.gz
-    b1ba7cee69116c2744c7a1a99aa1eac0bf9279737ab418360cd74e68a6ee9a12  litecoin-0.21.2rc3-osx64.tar.gz
-    35e3b5a322a754ac5f67485c4e94244e9d153afa4cdb593dfd81e87f2f6a8ade  src/litecoin-0.21.2rc3.tar.gz
+    7900dd21d2b7065e24cb5cbf4314d5db8b0ecced50ff9209b0e649484abe9ab7  litecoin-0.21.2rc4-osx-unsigned.dmg
+    45e8f2819ce3a21ad556c531d9da5323084b668632da853355ed194cfa94c85a  litecoin-0.21.2rc4-osx-unsigned.tar.gz
+    2820962c2b1177a18e8d68547e4286041dca4c824680b2502b40c9ebd7d07a8b  litecoin-0.21.2rc4-osx64.tar.gz
+    f4b0a1d23977fb0944fa80ffcf493d39b189a82c49f22091797b3401f5dfce46  src/litecoin-0.21.2rc4.tar.gz
 - in_manifest: |-
     f1d8cf661f8d6491d2c10e5f6e462d938b738df5daab27cfdbc0f372dcbc2385  litecoin-core-osx-0.21-desc.yml
     436df6dfc7073365d12f8ef6c1fdb060777c720602cc67c2dcf9a59d94290e38  Xcode-11.3.1-11C505-extracted-SDK-with-libcxx-headers.tar.gz
-    git:f259e4adfe1b2b422539b0d258e6619f149b0369 litecoin
+    git:e398e7bc202be04b4b7ed72b7ba3be0486cc7b47 litecoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -301,7 +301,7 @@
       bfda6dc44a39d6500ac2974b3113105477adce457699aadd99f022d5a4858c1c  libxrender1_1%3a0.9.10-1_amd64.deb
       2809c4cb4df8462e9d0a694be13a7787f91784da88435825556608cd472a713b  libzstd1_1.3.3+dfsg-2ubuntu1.2_amd64.deb
       d4ec27ae2e8ce18eb2c408292fb94fcfed7a3cd444a7db3d1f32b72bb18047d0  linux-base_4.5ubuntu1.7_all.deb
-      6f6b64b2e606637b931fa9327df03dcfdb231c6ae11316914fd52091edd4ab8e  linux-firmware_1.173.20_all.deb
+      76a201a1e8761bf64bdd8969600d508503bc6e39eaae317db422d08c88dc9513  linux-firmware_1.173.21_all.deb
       dfc4dee86f093df95c3babbab62ac00d73975814002a79cd24edf29abd6db013  linux-image-4.15.0-169-generic_4.15.0-169.177_amd64.deb
       032db51c3238356154c344ab7adeaa7a37c9133485fb483b8888e6e1ee37dba0  linux-image-generic_4.15.0.169.158_amd64.deb
       0404f451731717a602a761d7a35e821fa896f81ce2c7b035fdafdefadb866ed6  linux-libc-dev_4.15.0-169.177_amd64.deb
@@ -447,7 +447,7 @@
     30ba1f3ce0ef66cc80835f064157b8c12828d0f806edb9f875d8e38c9bc6407e  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-f6de5b17ed5.tar.gz.hash
     0103b2c1b9b2f13dfabd69ea871806faccb8bbc5815be1e422562312f9e9ea3d  x86_64-apple-darwin16/zlib/zlib-1.2.11-9fbb8116fca.tar.gz
     48bb66c5eaa8a7e3d40052aefdf5d015044603600017caca7f680443a4920cd0  x86_64-apple-darwin16/zlib/zlib-1.2.11-9fbb8116fca.tar.gz.hash
-- release: 0.21.2rc3-osx-unsigned
+- release: 0.21.2rc4-osx-unsigned
 - name: litecoin-core-osx-0.21
 - type: build
 - optionals: 

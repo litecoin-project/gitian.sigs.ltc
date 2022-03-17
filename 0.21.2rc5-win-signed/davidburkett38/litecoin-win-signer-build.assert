@@ -1,12 +1,12 @@
 --- !!omap
-- out_manifest: 'a0aea5e5968b4b5120a2dd24b64db52f2454c18607e95917226bf570c9bac03d  litecoin-0.21.2rc5-win64-setup.exe
+- out_manifest: '4e826396affb09840fae19dc65014a868f49fb4c8f31adccd849604711bb5583  litecoin-0.21.2rc5-win64-setup.exe
 
     '
 - in_manifest: |-
     9fec48f766727840da186f34db3a94850f59b3a754ce59468c29880a5e2b2127  litecoin-win-signer-desc.yml
     5a60e0a4b3e0b4d655317b2f12a810211c50242138322b16e7e01c6fbb89d92f  osslsigncode-2.0.tar.gz
-    1640f4e45944e361b3235c9b6ce3a59cae40c6fd5bd1a50d1dbf34675e544541  litecoin-win-unsigned.tar.gz
-    git:113d84c674bc12bea989b08d46122f53a2cc1ebf signature
+    1402a76315eaa52d733a98d10d3d9465b0d503bd295d0714118961a504da8e40  litecoin-win-unsigned.tar.gz
+    git:f1b43be6ca42d975192f22c095377dc1e925cb55 signature
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -173,9 +173,9 @@
       dc152f65abbc4fd8f6f3a3c9ffc3d9a413ea2dccb666a60948d8bdcfd53cc70c  libsmartcols1_2.31.1-0.4ubuntu3.7_amd64.deb
       cde7a26502ecfeede865ce054763f4b6d3aa151bd8dcc5696e2725cfda5ceb07  libsqlite3-0_3.22.0-1ubuntu0.4_amd64.deb
       4754a6f32a4c20f0e3650a57ae86dc4cf9d5617938b54c8a4d6567fa1e597fd1  libss2_1.44.1-1ubuntu1.3_amd64.deb
-      aa15553ae612fcae823f1a3682e0dd45b1b519100331be9dd3cb40537b324f7b  libssl-dev_1.1.1-1ubuntu2.1~18.04.14_amd64.deb
-      a1818e0509a75c0d12746298346345ef298acffb6f1d1cb216365a1fa8b1c287  libssl1.0.0_1.0.2n-1ubuntu5.7_amd64.deb
-      edeeb202b67936376e8fe483d7bc8d769a456eba2d100b272bb195b6e6d38cb3  libssl1.1_1.1.1-1ubuntu2.1~18.04.14_amd64.deb
+      5d6815769936cd0b56a5a796e08edd92a73511879da43184b3914e884b934e10  libssl-dev_1.1.1-1ubuntu2.1~18.04.15_amd64.deb
+      45862bea66452c1826f9348000661fc0ecf1f8aa2b3b4ae31a97313bb1c0189f  libssl1.0.0_1.0.2n-1ubuntu5.8_amd64.deb
+      f719aaaad625b792c65b0af12b3fb0628f1766a4b1ef01c896993c1a1f8b2907  libssl1.1_1.1.1-1ubuntu2.1~18.04.15_amd64.deb
       d7402d9fb25ccde6c7e42a33ac64ea58663b711d47f073e083e2286f355b5a51  libstdc++-7-dev_7.5.0-3ubuntu1~18.04_amd64.deb
       4dbd1ffa20011329608f584ff329a10507cfa78c3f76fa34e6f479f9680b64f4  libstdc++6_8.4.0-1ubuntu1~18.04_amd64.deb
       3c351bb3715758a7866cfca6d3751ac60904d9db1067d8dd21d28a1e743d96a3  libsvn1_1.9.7-4ubuntu1_amd64.deb
@@ -230,7 +230,7 @@
       c06d54524c1c77524c55262a82e1f59d6aec531a338ab87549b03fbc7cb83c47  subversion_1.9.7-4ubuntu1_amd64.deb
       e01a3afecf0d928e0b305ef727301111735a160944554ae0f6443e14c8d798e9  sudo_1.8.21p2-3ubuntu1.4_amd64.deb
       35e24a72b6e48aa910186b0c5ccf95d039c543f0e8174d7dbe2393cf3de3ea7a  sysvinit-utils_2.88dsf-59.10ubuntu1_amd64.deb
-      6bdbb90c9c073f8e8f92da231a2e553410ce397489f2f1f77d1ae8ddbd0c7bc4  tar_1.29b-2ubuntu0.2_amd64.deb
+      83b7ee71eb936c983b912267e0289ba3ae7458e29c3e5162696c25de65adb1c2  tar_1.29b-2ubuntu0.3_amd64.deb
       5d8609563fb3074026b254d7d5248f90d393c7dbafcac48916f333bf3c90fed9  ubuntu-keyring_2018.09.18.1~18.04.2_all.deb
       fb069365dce07ec9b04110e806736c5a5d0b0f350216c90912749226f1187ed5  ucf_3.0038_all.deb
       4480cf8e9202013611aa00b79834a9b6808617c66f521d894bd17905218c6544  util-linux_2.31.1-0.4ubuntu3.7_amd64.deb

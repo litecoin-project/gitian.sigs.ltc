@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: '30eb451486c0ac7e988a8499e850afc5c71b6a030fea8331bdb0d075800c7671  litecoin-osx-signed.dmg
+- out_manifest: 'e85c1e279554c0f9d3b9870085d0fde0cc3e8483686f8a7030b61494912d6421  litecoin-osx-signed.dmg
 
     '
 - in_manifest: |-
-    f40fcb4fbd988cc212c30ab2e61178a641907bd04a87510edcb9f80f36c77607  litecoin-dmg-signer-desc.yml
-    6c82b4f7e1b087d7ed0d3f4c3bb23833c251f7df17573e2ed6d98fb9db3ac767  litecoin-osx-unsigned.tar.gz
-    git:113d84c674bc12bea989b08d46122f53a2cc1ebf signature
+    bab964d5df1f071c1e7eec091e8945a737459fe9743a434a0a7a745390298dfa  litecoin-dmg-signer-desc.yml
+    41f05ee383274a7cbe1d11cd8566492e87aaab4059a94ef5a6d5c29eca62169b  litecoin-osx-unsigned.tar.gz
+    git:f1b43be6ca42d975192f22c095377dc1e925cb55 signaturegit:0777ce58e61b0e6be753a5f524149d6d47905186 signapple
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -20,6 +20,7 @@
       f2f19c529e88a07ec764256fd75d12c95190f79ffa38f33ba5cd096effdf7760  bsdutils_1%3a2.31.1-0.4ubuntu3.7_amd64.deb
       bb2ac7aae21544446f45e200aacb961f0dcc42c8caacdc8da37d392b222abfa0  build-essential_12.4ubuntu1_amd64.deb
       14955e4660d85da6507e9074f14f4d412bc7bf9e7841f327cf8751a6d227e329  bzip2_1.0.6-8.1ubuntu0.2_amd64.deb
+      911c7e57ad1ef49958f28dcc27bb19e0103465486cc7766023a68e78344b8c10  ca-certificates_20210119~18.04.2_all.deb
       24541a48e25dfb17c98ce77dda61800e6cd68d74c25725753613fbcc00f2418f  coreutils_8.28-1ubuntu1_amd64.deb
       54ef20b753876e38ac478f05170ef1c4fc856db12b1dfaa0ffb14e220e527d61  cpp-7_7.5.0-3ubuntu1~18.04_amd64.deb
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
@@ -73,6 +74,7 @@
       fab5294ecf93b0b0d218973a4aadf7b94945ac662fab56fd3577f03ad57229c9  libbinutils_2.30-21ubuntu1~18.04.7_amd64.deb
       1ebe375596d1ab25d58f44086bb876474c30a3a2e3765acda4a613ab17d21fb1  libblkid1_2.31.1-0.4ubuntu3.7_amd64.deb
       a1e1900a51b56919113ac07ad873c25ad0f57a7042a054e5ed755d5d82871745  libbsd0_0.8.7-1ubuntu0.1_amd64.deb
+      f32970afc35cf9beda18357f512ae556262c553d82ff7a33bbdcb84946377429  libburn4_1.4.8-1_amd64.deb
       897850ec11aab3280ce2755eb552995a5aa9b16a70453934828c6418591ea87b  libbz2-1.0_1.0.6-8.1ubuntu0.2_amd64.deb
       9184f8eebfdab3ea9ea5e0a2ed498d21c658ef2599232e99071b2f0eafec07a9  libc-bin_2.27-3ubuntu1.5_amd64.deb
       19dba0f1f822b59ba7d672467ae9d77c679264bf30bd89af1c87323e3f1069b2  libc-dev-bin_2.27-3ubuntu1.5_amd64.deb
@@ -114,7 +116,10 @@
       99b3774d1df23ca1340352bbf5b23f50238b4022ca165b271ea1e94a68e257a3  libhx509-5-heimdal_7.5.0+dfsg-1_amd64.deb
       432f5bb836d90753a1a32c55d608670e31479de5ad765163c160b883223eebb1  libidn2-0_2.0.4-1.1ubuntu0.2_amd64.deb
       07a0827aba14140b1833ca19ced3f939b2d075646094926d43678a0d19cc942f  libisl19_0.19-1_amd64.deb
+      6185171415b9719be4cc7df05258408c1b371b519a49749879015f71bb8dd352  libisoburn1_1.4.8-3_amd64.deb
+      282df49b0754d37e70c98fe5277145bb79aff57d2d00187892803218690c2c06  libisofs6_1.4.8-1_amd64.deb
       457bf0aeba42cf1365bfe04af9a0094e3f5fd9104a59ea68ce95b32308ed0c69  libitm1_8.4.0-1ubuntu1~18.04_amd64.deb
+      73f2180e58eadc2c132391c68f227019d6ceb324df0a72cee8f86af1bd1df727  libjte1_1.20-2ubuntu2_amd64.deb
       d3cf88802e2a182ccd2214c454adda9fd895d35d73c9cda2c7ce53e5356c1927  libk5crypto3_1.16-2ubuntu0.2_amd64.deb
       0ba4ab4a5b6510de82a45a2ed69250b866f330bb761f2d478b6382a402c889f0  libkeyutils1_1.5.9-9.2ubuntu2_amd64.deb
       f6041aae36c1f90ecd40cf1d8da5493775aec92eb7ae597fc496ef160f8205c7  libkmod2_24-1ubuntu3.5_amd64.deb
@@ -166,8 +171,8 @@
       dc152f65abbc4fd8f6f3a3c9ffc3d9a413ea2dccb666a60948d8bdcfd53cc70c  libsmartcols1_2.31.1-0.4ubuntu3.7_amd64.deb
       cde7a26502ecfeede865ce054763f4b6d3aa151bd8dcc5696e2725cfda5ceb07  libsqlite3-0_3.22.0-1ubuntu0.4_amd64.deb
       4754a6f32a4c20f0e3650a57ae86dc4cf9d5617938b54c8a4d6567fa1e597fd1  libss2_1.44.1-1ubuntu1.3_amd64.deb
-      a1818e0509a75c0d12746298346345ef298acffb6f1d1cb216365a1fa8b1c287  libssl1.0.0_1.0.2n-1ubuntu5.7_amd64.deb
-      edeeb202b67936376e8fe483d7bc8d769a456eba2d100b272bb195b6e6d38cb3  libssl1.1_1.1.1-1ubuntu2.1~18.04.14_amd64.deb
+      45862bea66452c1826f9348000661fc0ecf1f8aa2b3b4ae31a97313bb1c0189f  libssl1.0.0_1.0.2n-1ubuntu5.8_amd64.deb
+      f719aaaad625b792c65b0af12b3fb0628f1766a4b1ef01c896993c1a1f8b2907  libssl1.1_1.1.1-1ubuntu2.1~18.04.15_amd64.deb
       d7402d9fb25ccde6c7e42a33ac64ea58663b711d47f073e083e2286f355b5a51  libstdc++-7-dev_7.5.0-3ubuntu1~18.04_amd64.deb
       4dbd1ffa20011329608f584ff329a10507cfa78c3f76fa34e6f479f9680b64f4  libstdc++6_8.4.0-1ubuntu1~18.04_amd64.deb
       3c351bb3715758a7866cfca6d3751ac60904d9db1067d8dd21d28a1e743d96a3  libsvn1_1.9.7-4ubuntu1_amd64.deb
@@ -202,6 +207,7 @@
       428924ae5212cdcb4578feb1a0744e36f75c31009e839a0b543188077b8f80d6  openssh-client_1%3a7.6p1-4ubuntu0.6_amd64.deb
       da3623536000088348bb9f6ecd4aac313e8899b6fa698684902f71938c67a461  openssh-server_1%3a7.6p1-4ubuntu0.6_amd64.deb
       d9e3d3c1b9e613c4e6721c7a871bc8eb86d72d6846531372ec78f1d3dda3edb9  openssh-sftp-server_1%3a7.6p1-4ubuntu0.6_amd64.deb
+      e2a3e6fae5729b8517ceab3b48f66c941bff3c31739af235aa34ef0bd269e2a4  openssl_1.1.1-1ubuntu2.1~18.04.15_amd64.deb
       68b0ba211b3177cb907d45462118b0ea5e1f7ae74e192f73eb70b6793ed3b113  passwd_1%3a4.5-1ubuntu2.2_amd64.deb
       f56fc64546fbbbba26ca1776587bf0c3cad48438bb84c5c423c025ab86d4263e  patch_2.7.6-2ubuntu1.1_amd64.deb
       217ff292f4a0e5b3acfa02eba10c82895175fc19698113453c16a529575d5264  pciutils_1%3a3.5.2-1ubuntu1.1_amd64.deb
@@ -209,7 +215,11 @@
       5e3b19917c34b18f5730cd3df6fc888a94d8142c865e3bc179cb651f7fd7aef6  perl-modules-5.26_5.26.1-6ubuntu0.5_all.deb
       9f550d519e3f0753dcc43ccba20370f94bc127c08ef46c4a10f8545e928867aa  perl_5.26.1-6ubuntu0.5_amd64.deb
       f5ea4948405a19646bc7b6d505b9e01ee831e7507a5fe85168aa85a3cad42af5  procps_2%3a3.3.12-3ubuntu1.2_amd64.deb
+      22c03c083b9310d224dac48ba5cba6975c1140b2808a0629b8c985eb37da2784  python-pip-whl_9.0.1-2.3~ubuntu1.18.04.5_all.deb
+      f836b1e22923fa175c1968b9dbd916ae5639c9250e21bcfb88f9df2dc289f65c  python3-distutils_3.6.9-1~18.04_all.deb
+      3d20a1a4e5bfa53de66e06a293465855d113a633dac6fdeea3bd3f81f032e9fd  python3-lib2to3_3.6.9-1~18.04_all.deb
       5a535025423b658181d50e8af9f376aae6fd85efaa6931ae148554788912774d  python3-minimal_3.6.7-1~18.04_amd64.deb
+      a9524abb32dcc946f77b788f2c8d63604b102645d993045d4be8bf65d5292c03  python3-pip_9.0.1-2.3~ubuntu1.18.04.5_all.deb
       e30011c605816ab1d371c9f096caabaff8dabf87850207fd146aa05845b912c9  python3.6-minimal_3.6.9-1~18.04ubuntu1.6_amd64.deb
       04d83f9091efa0c375a5fb36962e3bdd320d7b721bcc76bf91f39f6e9b151958  python3.6_3.6.9-1~18.04ubuntu1.6_amd64.deb
       6823addff8bc3d89115512ba786e929ff6c072c4eaedcfc89d6ba6a450ac4902  python3_3.6.7-1~18.04_amd64.deb
@@ -219,12 +229,13 @@
       c06d54524c1c77524c55262a82e1f59d6aec531a338ab87549b03fbc7cb83c47  subversion_1.9.7-4ubuntu1_amd64.deb
       e01a3afecf0d928e0b305ef727301111735a160944554ae0f6443e14c8d798e9  sudo_1.8.21p2-3ubuntu1.4_amd64.deb
       35e24a72b6e48aa910186b0c5ccf95d039c543f0e8174d7dbe2393cf3de3ea7a  sysvinit-utils_2.88dsf-59.10ubuntu1_amd64.deb
-      6bdbb90c9c073f8e8f92da231a2e553410ce397489f2f1f77d1ae8ddbd0c7bc4  tar_1.29b-2ubuntu0.2_amd64.deb
+      83b7ee71eb936c983b912267e0289ba3ae7458e29c3e5162696c25de65adb1c2  tar_1.29b-2ubuntu0.3_amd64.deb
       5d8609563fb3074026b254d7d5248f90d393c7dbafcac48916f333bf3c90fed9  ubuntu-keyring_2018.09.18.1~18.04.2_all.deb
       fb069365dce07ec9b04110e806736c5a5d0b0f350216c90912749226f1187ed5  ucf_3.0038_all.deb
       4480cf8e9202013611aa00b79834a9b6808617c66f521d894bd17905218c6544  util-linux_2.31.1-0.4ubuntu3.7_amd64.deb
       ccf494f932e83e08b218702b9c2fc00cfcdf697ab0c7b3af62e94f99e427f048  wget_1.19.4-1ubuntu2.2_amd64.deb
       8e0491999ca58400c6b8e3ebd365fb85090e6c66c309b123801d4dbf73d0d266  wireless-regdb_2021.08.28-0ubuntu1~18.04.1_all.deb
+      557a896a93c7e727be38843fb3e10d72b0926ad6ad5f48ea0b38a62f96382fdd  xorriso_1.4.8-3_amd64.deb
       0c142fd5c44cae76e2e1ad5c62d3dc8f36f1a80eaaadf9a5e60325fcfffe16ed  xz-utils_5.2.2-1.3_amd64.deb
       2e6dafb986ee8ebbc4e1c344fab090a41710cab878fc9cd89336cdd1740518c5  zlib1g_1%3a1.2.11.dfsg-0ubuntu2_amd64.deb
 - cache_common_manifest: ''

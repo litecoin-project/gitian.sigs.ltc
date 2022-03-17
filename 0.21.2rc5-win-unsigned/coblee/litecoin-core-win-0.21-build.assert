@@ -1,9 +1,9 @@
 --- !!omap
 - out_manifest: |
-    c7179c28cb3ebe59f9939db3c7fc8be528a82792965d7ebfd9957a68a3b1e1a9  litecoin-0.21.2rc5-win-unsigned.tar.gz
-    56c71382e4a01518445043562a0a518f9f64425c79e0deb68394512e9c51ad62  litecoin-0.21.2rc5-win64-debug.zip
-    e59aa51862c4b4bef1cc4709c3f1d1c9f52916274425f59ce648adcb9d41a3c2  litecoin-0.21.2rc5-win64-setup-unsigned.exe
-    6f63bb72896042f4c6be43720a7172ff16d98bf9c826190e3f4b9127d246cf88  litecoin-0.21.2rc5-win64.zip
+    1402a76315eaa52d733a98d10d3d9465b0d503bd295d0714118961a504da8e40  litecoin-0.21.2rc5-win-unsigned.tar.gz
+    529709cc6e0bb4e87d5a6be6f32489a57bb126ee698b1795b4840a971d3c628a  litecoin-0.21.2rc5-win64-debug.zip
+    f7f779d058399af82ae74e409f2ea14217c82af501229c91668c45ec8cb8589a  litecoin-0.21.2rc5-win64-setup-unsigned.exe
+    9b788b686a2e15d7319ac95a9de298c7f2f835ab9d72351ac01d05373a47d49a  litecoin-0.21.2rc5-win64.zip
     87369df3e400ca70b15080e1a00cc86fdd2dceb917ee123929a60235764718c6  src/litecoin-0.21.2rc5.tar.gz
 - in_manifest: |-
     571d5c4633b1267b4f7bebebdf4cf6b7643d1cfd9d3b585ff3a8460e809d6c47  litecoin-core-win-0.21-desc.yml
@@ -272,14 +272,8 @@
       800a02ee081bc8cedafe6b0a3da1193de3e0c281ae1e7a04b091db01cd301d92  zip_3.0-11build1_amd64.deb
       2e6dafb986ee8ebbc4e1c344fab090a41710cab878fc9cd89336cdd1740518c5  zlib1g_1%3a1.2.11.dfsg-0ubuntu2_amd64.deb
 - cache_common_manifest: |
-    380c1ca37cfa04a8699d0887a8d3ee1ad27f3d08baba78887c73b09485c0fbd3  3efb201881e7a76a21e0554906cf306432539cef.tar.gz
-    e51995a843533a3dac155dd0c71362dd471597a2d23f13dff194c6285362f875  55562e4073dea0fbfd0b20e0bf69ffe6390c7f97.tar.gz
     5cae7072042b3043e12d53d50ef404bbb76949dad1de368d7f993a15c8c05ecc  7.1.3.tar.gz
-    56fbdc48ec110966342f0ecddd6f8f89202f4143ed2a3336e42bbf88f940850c  7ac55ec64c96f7800d9818ce64c79670e7f02b67.tar.gz
-    4c0549764c5fe50b28042ec21aa2e14fe1a2224e239a1dae77d9e7f3932aa4c6  biplist-1.0.3.tar.gz
     430ae8354789de4fd19ee52f3b1f739e1fba576f0aded0897c3c2bc00fb38778  boost_1_70_0.tar.bz2
-    b50d64c214a65b1a79afe3a964c691931a4233e2ba605d793eb85d0ac3652564  cdrkit-1.1.11.tar.bz2
-    9ef854b71949f825362a119bf2597f744836cb571131ae6b721cd102ffea8cd0  clang-llvm-8.0.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
     12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz
     535bec5356b1ff4a753fcd87f14509297d2fa044955d3bb0308e5c2e54bb2d09  download-stamps/.stamp_fetched-bdb-db-4.8.30.NC.tar.gz.hash
     9323e689144a6ee8d0f73f4f48d65dfcdc1d0b873c6e3cb28decd4825acf8678  download-stamps/.stamp_fetched-boost-boost_1_70_0.tar.bz2.hash
@@ -291,12 +285,6 @@
     e29b29449d168a30102c8a101f5281ace10073c83246e95e52357b4f33b28583  download-stamps/.stamp_fetched-libfmt-7.1.3.tar.gz.hash
     969244f07df6dd122c0058d3a5b3f536fedfe5c0616767a3403d1154f61ec80d  download-stamps/.stamp_fetched-libxcb-libxcb-1.10.tar.bz2.hash
     6d08ccdcc3ad793df90e48a692496a19e9a528d01c79a3ce1e156f607e14f730  download-stamps/.stamp_fetched-miniupnpc-miniupnpc-2.0.20180203.tar.gz.hash
-    d6b485443284cf3b6c0221522ed8b898f80505916b18ec362c45be3c3e6d470e  download-stamps/.stamp_fetched-native_biplist-biplist-1.0.3.tar.gz.hash
-    c624da06dd3b6de45e71704ca3d4b17346910e7654ee396ec57f590a1dd6a968  download-stamps/.stamp_fetched-native_cctools-55562e4073dea0fbfd0b20e0bf69ffe6390c7f97.tar.gz.hash
-    242fda2b08636d4016c2274f98007e3e055075a3e40f01a0bf44d2dd67b9d44b  download-stamps/.stamp_fetched-native_cdrkit-cdrkit-1.1.11.tar.bz2.hash
-    04748232b0333d24937c79128a26a7d7c570dac05c6a8f26110967e795801a5a  download-stamps/.stamp_fetched-native_ds_store-v1.1.2.tar.gz.hash
-    82d0d25c755fdf8ae9ca63d57aaa66a00dce8c2b2a52986ccba3172745bd476f  download-stamps/.stamp_fetched-native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67.tar.gz.hash
-    cb8b0081c0555ce0bdcefdad036d0df9f3169e2caeceb2b1c8c13d9e5efff758  download-stamps/.stamp_fetched-native_mac_alias-v2.0.7.tar.gz.hash
     3728c9a0ac4bd203cbc38b0fc668914eeaaeb7a1c4d3ed9fe18c3a86028e497e  download-stamps/.stamp_fetched-openssl-openssl-1.0.1k.tar.gz.hash
     4f1aae01029d0f1b99e12c7c7277ad2aa6029c6deb679a8b39fbea5f49bceeea  download-stamps/.stamp_fetched-qrencode-qrencode-3.4.4.tar.bz2.hash
     ad447287e7b16ee88f4a795ac460c56eaabee9292dfa94e9f80ebb11e3cedea3  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.8.tar.xz.hash
@@ -318,35 +306,33 @@
     fb5a47799754af73d3bf501fe513342cfe2fc37f64e80df5533f6110e804220c  qttranslations-opensource-src-5.9.8.tar.xz
     229393ab2bf0dc94694f21836846b424f3532585bac3468738b7bf752c03901e  release-2.1.11-stable.tar.gz
     486748abfb16abd8af664e3a5f03b228e5f124682b0c942e157644bf6fff7d10  sqlite-autoconf-3320100.tar.gz
-    3b3ecb7bf0a5157f5b6010bc3af7c141fb0ad3527084e63336220d22744bc20c  v1.1.2.tar.gz
-    6f606d3b6bccd2112aeabf1a063f5b5ece87005a5d7e97c8faca23b916e88838  v2.0.7.tar.gz
     7ef40ddd855b750bc597d2a435da21e55e502a0fefa85b274f2c922800baaf05  xcb-proto-1.10.tar.bz2
     636162c1759805a5a0114a369dffdeccb8af8c859ef6e1445f26a4e6e046514f  xproto-7.0.26.tar.bz2
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    879e20559a6cdfcd50f5094432e5d90b07572f945264f3f118b0b026a7f17853  x86_64-w64-mingw32/bdb/bdb-4.8.30-35f62e06a68.tar.gz
-    6a4a164dbed71da74a00df3785db7557c22fafb0f236ef0a97da5b695a7ca2cc  x86_64-w64-mingw32/bdb/bdb-4.8.30-35f62e06a68.tar.gz.hash
-    aebbee1c59ba04cbb61acfa87bacc87dfee7b95f9928fe79180a07e725f6a622  x86_64-w64-mingw32/boost/boost-1_70_0-44618e7534b.tar.gz
-    aca560b32cb456b7b98ee94d7f181a470598814744aeb504c46a63e9bf9b1613  x86_64-w64-mingw32/boost/boost-1_70_0-44618e7534b.tar.gz.hash
-    0926d6239db6b4f115b594d0e9839a142921da23d2892211774844c0060c2830  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-c8b9f910272.tar.gz
-    3b2a86b6f74bc100b6554dff6f74294bc1013b4e875a0443b3fcb19f247ff0be  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-c8b9f910272.tar.gz.hash
-    45978ca7cba7a7b64577ef609e90790a538cbd7d2a128057c7df4d4a358a871c  x86_64-w64-mingw32/libfmt/libfmt-7.1.3-31c70364ae1.tar.gz
-    436266b9f501e5f20f6dbcc9cf738f12351e759d8f750f71952eb33c045f3a9b  x86_64-w64-mingw32/libfmt/libfmt-7.1.3-31c70364ae1.tar.gz.hash
-    4cb7bb8be207d6afa49dd53148a663b7313debcc3b3c48b4c74833a3d68b3742  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-2ef45d1da5d.tar.gz
-    2044bfad114756ecf27e6ada46430ce6b46a8e1eda10d18ec4cfc441046bbc5f  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-2ef45d1da5d.tar.gz.hash
-    dccac3ee92b0b57e10fddb839ee1bf60ad6fc1cd60982604066ba76d2d59f030  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c67f89ab3c7.tar.gz
-    1fe4dd1b689140375de55bf8f99236ba10eca18c596476eceb7dd03afc9ee556  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c67f89ab3c7.tar.gz.hash
-    251f0125e2dac0b4b1b3a934bdae9a5049be24202966563ad72a6f2c52ea8ce4  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-d8407fc9b2b.tar.gz
-    3f10b0596ec57098fcaf94fd48f07bef150da696ad74d6bc91db0b7d80b6133d  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-d8407fc9b2b.tar.gz.hash
-    991bfb111cf7fd0f9fa057a1d74db97c9c4a2f6a64788d0d77aaf01e00c822ba  x86_64-w64-mingw32/qt/qt-5.9.8-ee1b366fdca.tar.gz
-    1dbae3b76472f9ece4f8774a629987966f4d1becc64c2e14795487502b42e613  x86_64-w64-mingw32/qt/qt-5.9.8-ee1b366fdca.tar.gz.hash
-    710a8ded0f0e434101b9f724a78b8c05b8178fd2dfe16b56f547d15aa8ea0954  x86_64-w64-mingw32/sqlite/sqlite-3320100-274af5f1f31.tar.gz
-    e72785f00e5a674f380747be7d417c6275661715d8b162e3c24975331f7670c8  x86_64-w64-mingw32/sqlite/sqlite-3320100-274af5f1f31.tar.gz.hash
-    9136f8d4f8d82efd9ff632f3cef703f53b5122e7955beaaa38c574e0aaa82d4f  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-aea49af3795.tar.gz
-    b1d5bc8c67c3c5aa903b44c303ad1526bd9e43f6f6fa11597327378c66928324  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-aea49af3795.tar.gz.hash
-    ac453d373e9a195c3c5730fb1b688ea2224bf7b8e12c7d4572496bdd43b6a9f2  x86_64-w64-mingw32/zlib/zlib-1.2.11-c2aacb7dd1b.tar.gz
-    14c83e3e039f084dab23628a960bcbf2a5ad3f400232a1d657ab6d338beb538d  x86_64-w64-mingw32/zlib/zlib-1.2.11-c2aacb7dd1b.tar.gz.hash
+    4a972ffa388510b8c211a1e735317350dd52b3c720cf0c2989579ea3caf1338e  x86_64-w64-mingw32/bdb/bdb-4.8.30-35f62e06a68.tar.gz
+    00115355d5f4a7c3e4df7fc3c703356271e803fc8658602b6bb76eaf651e78b3  x86_64-w64-mingw32/bdb/bdb-4.8.30-35f62e06a68.tar.gz.hash
+    730da9231eecc8c6d31be690c40c49b07c073b3dd0e7942d9d18b94c0d42098e  x86_64-w64-mingw32/boost/boost-1_70_0-44618e7534b.tar.gz
+    c45f8247b571f0badebcd741447704658dd6ca8d4df1cc53ccb80a8481bf09b6  x86_64-w64-mingw32/boost/boost-1_70_0-44618e7534b.tar.gz.hash
+    5c5c331050f85d9f831a7e06997513bce1be4fac6cc28c411efeaad126dcc03c  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-c8b9f910272.tar.gz
+    452aa359c811e16d96f2f3bb7345bc4736d0483510583e31609f00138c8d4b43  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-c8b9f910272.tar.gz.hash
+    716c2d68955dec4c8f4ae345555178624e7578f1f9735baf35cd3eae9a15ab05  x86_64-w64-mingw32/libfmt/libfmt-7.1.3-31c70364ae1.tar.gz
+    f0f12e4a30b63f4df35f8c167e301f275d952febab8dff1c002999776c905af3  x86_64-w64-mingw32/libfmt/libfmt-7.1.3-31c70364ae1.tar.gz.hash
+    b47cce117d93e42a3c991d8960ceb160b7e8d82676ec41d5d463521c5cf8219d  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-2ef45d1da5d.tar.gz
+    6ddd130687028135df7938c7ad2214fbc515bc72e4bf0d31249618ea4f6479e6  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-2ef45d1da5d.tar.gz.hash
+    d048ab91d2e9d0c4f65b7841fb2002161e4996cd2e00a62135519113f0946395  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c67f89ab3c7.tar.gz
+    0c8d21984a414eab0c1d764888a0e06c7933521531b0fb23e29687a9f8b57b46  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c67f89ab3c7.tar.gz.hash
+    0ca3a9f4c877963f1a497144d5aa49327199f0bc486f6bf7b3229ccf769874a2  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-d8407fc9b2b.tar.gz
+    00e4ddae141b5a986464a0c5237f6dca0ed07e19ce0ceb41073a6e1c23974cbb  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-d8407fc9b2b.tar.gz.hash
+    838ca4f3e1a7a301a4815e18341cec05a8a5568773935f84c3f0ccf275c7b0b2  x86_64-w64-mingw32/qt/qt-5.9.8-ee1b366fdca.tar.gz
+    d8a3a1066721fd08bd7f61fc1b99795d31886b55ba79dcd220a48f035788c221  x86_64-w64-mingw32/qt/qt-5.9.8-ee1b366fdca.tar.gz.hash
+    a9c4d3cdfe12e3878ab52aa9d752a15f738d51c4d2963ae9f0dff2a200d5fb5a  x86_64-w64-mingw32/sqlite/sqlite-3320100-274af5f1f31.tar.gz
+    fff6bf40c73b3229fdc973a990417ebf25322c6aa1211cf6e23dffaa39e09191  x86_64-w64-mingw32/sqlite/sqlite-3320100-274af5f1f31.tar.gz.hash
+    93906f0759423cd76eaad1fe889165467aa8c77c38bcbfa017b898e2a0c217d3  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-aea49af3795.tar.gz
+    6f8d3d2d66f79980cf284fb847e740ef08bbe9a3a8cc8d5062474b06e3e13ff6  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-aea49af3795.tar.gz.hash
+    7bff3b5d3f5ca864b6feee5fc8563372cb3ef22d7bf6e09d4c5e0846592d1e88  x86_64-w64-mingw32/zlib/zlib-1.2.11-c2aacb7dd1b.tar.gz
+    cb716a6a333b338e3962ffb62da1655cc68d811d0ae69c2b1ab773d5c93be818  x86_64-w64-mingw32/zlib/zlib-1.2.11-c2aacb7dd1b.tar.gz.hash
 - release: 0.21.2rc5-win-unsigned
 - name: litecoin-core-win-0.21
 - type: build

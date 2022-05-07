@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    7430d72f9911733cd32c7be095d2f0c7844f99ce26400931b11d48f919019fcd  litecoin-67d37e3cc3bf-win-unsigned.tar.gz
-    3a20a20078cd525bafab665262c71779e22906ea9cea326ec9da8bf5c124b67f  litecoin-67d37e3cc3bf-win64-debug.zip
-    ad708f5390ad000aac88bb900f6a1fdc8162f4fe28c1541bc332eb9caf261269  litecoin-67d37e3cc3bf-win64-setup-unsigned.exe
-    00fc1f3348b7fdbea509c6730ef9a6e5aeaccbec0c30a222159112edda4a6eff  litecoin-67d37e3cc3bf-win64.zip
-    fdb23cca9e6cb2b21beae3f93e1507a1a0a966bd24f835ade2d2fae69caac549  src/litecoin-67d37e3cc3bf.tar.gz
+    6cc522f9240313ea1bc291bc083f4973dee6e5ae8f5f6a361b602bbc7fa0d3bb  litecoin-0.21.2-win-unsigned.tar.gz
+    b148cca2d2e58d33cc136e20136f9715acb7ee607781f50b72cbf780fcd23ec1  litecoin-0.21.2-win64-debug.zip
+    da11d36c2e0a663115e6abde4228ef3a1b239e90da26d23945ef1793ea972bfc  litecoin-0.21.2-win64-setup-unsigned.exe
+    297e13916b95e998dccc1c234752148e4cd77aab0110d1ce72bacda4ed79ec55  litecoin-0.21.2-win64.zip
+    255263d27e409628ddaf7165f8d8363cefbd683bde613c3e7623a27f9733ada2  src/litecoin-0.21.2.tar.gz
 - in_manifest: |-
     571d5c4633b1267b4f7bebebdf4cf6b7643d1cfd9d3b585ff3a8460e809d6c47  litecoin-core-win-0.21-desc.yml
-    git:67d37e3cc3bfc761267b0ab9fcd320a9e92341a2 litecoin
+    git:948e6257aec15b52ef68b4e1ee9d73f7c740fae3 litecoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -194,7 +194,7 @@
       2691285f636fb0a083a7d452661c7a56044e18e8341609f1109897f844e94b80  libserf-1-1_1.3.9-6_amd64.deb
       233ba112b0c15cc602c6d5537ae427531228d78a0586dc8d39d5b6aac47921c1  libsigsegv2_2.12-1_amd64.deb
       dc152f65abbc4fd8f6f3a3c9ffc3d9a413ea2dccb666a60948d8bdcfd53cc70c  libsmartcols1_2.31.1-0.4ubuntu3.7_amd64.deb
-      cde7a26502ecfeede865ce054763f4b6d3aa151bd8dcc5696e2725cfda5ceb07  libsqlite3-0_3.22.0-1ubuntu0.4_amd64.deb
+      b1dddb152222efc3f64030e775139dea43c6da0c9aa6e17a3e15d9ec64762354  libsqlite3-0_3.22.0-1ubuntu0.5_amd64.deb
       4754a6f32a4c20f0e3650a57ae86dc4cf9d5617938b54c8a4d6567fa1e597fd1  libss2_1.44.1-1ubuntu1.3_amd64.deb
       e5a8a849cdb29d8b247ddf4d9f4cc8ff6a4f3b96ce7dd7c9d48c6f1dd0cf3125  libssl1.0.0_1.0.2n-1ubuntu5.9_amd64.deb
       b879fd601daf56250b6964884e84d9fa4731a280385a03234a7fdf8f6a981276  libssl1.1_1.1.1-1ubuntu2.1~18.04.17_amd64.deb
@@ -311,28 +311,28 @@
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    683293096aff31c8431f0ab8c596ed81c53b3d81e2cf20e16e55e36e935efc75  x86_64-w64-mingw32/bdb/bdb-4.8.30-35f62e06a68.tar.gz
-    be9dfa584f132095429b4bb1cae47e27292d3b49a3bb409ee631179dc655ce42  x86_64-w64-mingw32/bdb/bdb-4.8.30-35f62e06a68.tar.gz.hash
-    a9d8f134e669809925baabc400fa35e19242624e2d310c7c6f993455b63a035d  x86_64-w64-mingw32/boost/boost-1_70_0-44618e7534b.tar.gz
-    f55ac930fffdb384ef5dec010ec80a4525666f36d5e5f1f3bf18e75b17ddaf15  x86_64-w64-mingw32/boost/boost-1_70_0-44618e7534b.tar.gz.hash
-    b6d039c42334fcf410295c5424cd45482cc9e462796d5a2ce22ded3bbd79c6a8  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-c8b9f910272.tar.gz
-    31d5e547a339a209ea0b8e52de732f8fa444d299258f2835330f9051595a1997  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-c8b9f910272.tar.gz.hash
-    b3394c00ccb831553b4eda2cf0738066e0872a505458f144598984326cd39ac8  x86_64-w64-mingw32/libfmt/libfmt-7.1.3-31c70364ae1.tar.gz
-    38073b87b82110e9d717d6b89f7885afc179bfdccfdfbdd8f5796312638fece0  x86_64-w64-mingw32/libfmt/libfmt-7.1.3-31c70364ae1.tar.gz.hash
-    cb1383359526dbf919d9a54cb9b009f56ba18c9787a78096e01e21953caf8f83  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-2ef45d1da5d.tar.gz
-    aabafe73d9e152226860b076bb1b07b88864635a00449107fa5dbf1000c4bbfb  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-2ef45d1da5d.tar.gz.hash
-    46a36180411ddfd08ac783df500856ccea82ce0df0dae4974c709067fa3bc2e4  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c67f89ab3c7.tar.gz
-    221af16c7fb6df37bcdb12440a439df24bd99377480d5eee086e188c0a8039e5  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c67f89ab3c7.tar.gz.hash
-    af5f83f1743e8bb2330b5a32e26affdf8c2ec82454f8c8fe4c29539b8a1aca52  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-d8407fc9b2b.tar.gz
-    26413b20b5dc63b163309f529c852d3b41e946a5bf482ec04aaa92af40d4d964  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-d8407fc9b2b.tar.gz.hash
-    301a57dfc6adf4ceef3c12a4e4000a1d823de903acc0f01728163ce9c22d6a41  x86_64-w64-mingw32/qt/qt-5.9.8-ee1b366fdca.tar.gz
-    764641a1f17dc81a400deba20bcea3b846d4e8c30eab84e6fc58bf28000a9958  x86_64-w64-mingw32/qt/qt-5.9.8-ee1b366fdca.tar.gz.hash
-    a234824e5ed759556cad368bab8f03767cbe197af051340160ee7c6a68b70937  x86_64-w64-mingw32/sqlite/sqlite-3320100-274af5f1f31.tar.gz
-    40aa90d921ba4ec4015dc984dbbc3e49923008f25cfbab4da520fb9e4957968c  x86_64-w64-mingw32/sqlite/sqlite-3320100-274af5f1f31.tar.gz.hash
-    23961e2904ebe7a2350a0a41e9c21287759d741c220b873fbc9e72f60137fa4a  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-aea49af3795.tar.gz
-    e46c68d6d5f94c9a471fad03f33493c45de458c751d9778e239bc2bd1eea4a9a  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-aea49af3795.tar.gz.hash
-    41095c572bda1907df9203628ef2956228b80888e1f3df5d10394012217c9181  x86_64-w64-mingw32/zlib/zlib-1.2.11-c2aacb7dd1b.tar.gz
-    3be81579a602180e03f5eeafb3442f2ede7c5d534f722a06fe4095fe7721334f  x86_64-w64-mingw32/zlib/zlib-1.2.11-c2aacb7dd1b.tar.gz.hash
+    d32af5200d30f2def03c00ccd21c8bcd013022639f66fc8ec0f727836e4296ef  x86_64-w64-mingw32/bdb/bdb-4.8.30-35f62e06a68.tar.gz
+    a57975d470c56c54950092f9dadb15d6be84b63c3cbfb406c5f6b229e47015ba  x86_64-w64-mingw32/bdb/bdb-4.8.30-35f62e06a68.tar.gz.hash
+    1ea92f353cefddae75b375fb61a2cc76b26a2cd71b44756afee61039f8c6ec8c  x86_64-w64-mingw32/boost/boost-1_70_0-44618e7534b.tar.gz
+    7b15d862daeae9c52bd6467afb4792f3ec1a14d3e32d981d2e681ab076274c8f  x86_64-w64-mingw32/boost/boost-1_70_0-44618e7534b.tar.gz.hash
+    244d909f9069da37edf6054ec991b7e24ae1b5240d37ab026994f654f43da16d  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-c8b9f910272.tar.gz
+    f0dfca6518e9e50d86fcb004323346f034c7b9ea525559f59efb5f1cf0e5d233  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-c8b9f910272.tar.gz.hash
+    b8a43c434d82b04e7dc07ee7e81e2bd070dd1e3bc3c4ef36e5b352e13faab8a5  x86_64-w64-mingw32/libfmt/libfmt-7.1.3-31c70364ae1.tar.gz
+    d5be373beb766937a0b59e83c66afc34a28e6e121b4118fdc342a064656091d8  x86_64-w64-mingw32/libfmt/libfmt-7.1.3-31c70364ae1.tar.gz.hash
+    277f385106bf89a9d0a5c64cb0872b822be33d45ba53e668c91511549301e209  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-2ef45d1da5d.tar.gz
+    cd2920ef5426160eaa296b1769a80c7284edd02bab1695143c2ba8322a65a345  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-2ef45d1da5d.tar.gz.hash
+    080704aeb29f4732e7c42647808faee5d7397a6c8fa0d0cdf6809ee7f8e16ffe  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c67f89ab3c7.tar.gz
+    2bedef028db71462e42546235b846e4dd8ff382a51f8d52a9638273c57eeb5b6  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c67f89ab3c7.tar.gz.hash
+    53481f2aac92aae3e848ef3c0537342c9c88a0fe7286a5af70b7455d16fd9c1d  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-d8407fc9b2b.tar.gz
+    4f2ef79656e701328c893b3b56ecb25a1dcd630ed065f07ce367996f46d23ad0  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-d8407fc9b2b.tar.gz.hash
+    796a86dff5fdcc7750c32cdcffe728890c426473b4a6e3cfde6fae8942171b70  x86_64-w64-mingw32/qt/qt-5.9.8-ee1b366fdca.tar.gz
+    d1857512c0a168c1d9804a866a755d426bb8a182abf814955609a6d68ea76079  x86_64-w64-mingw32/qt/qt-5.9.8-ee1b366fdca.tar.gz.hash
+    6a95414423cb4fa142bd58c8e64920d7d068b6a348890837a229256f2b8aa1c7  x86_64-w64-mingw32/sqlite/sqlite-3320100-274af5f1f31.tar.gz
+    3b885beadeadf232285d772fe003bf3893cddb567e28ed6fb0ce18de433d931a  x86_64-w64-mingw32/sqlite/sqlite-3320100-274af5f1f31.tar.gz.hash
+    0524cfdc83241f92a4e9b47fc30df103806018131455d44d9ba65086ca9284cc  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-aea49af3795.tar.gz
+    e990c538496c68f769a6f6030418b711b171a30cfb96209be5dfeadcfdc52d15  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-aea49af3795.tar.gz.hash
+    b4ab5348f00c0125e9bd357daa72d0aeb73294f2ffaf32fa717b56d58656eaa6  x86_64-w64-mingw32/zlib/zlib-1.2.11-c2aacb7dd1b.tar.gz
+    4c4b1acf21cf169894439dcc52f000b1f53b09316a244b67933d1a3aa450bed9  x86_64-w64-mingw32/zlib/zlib-1.2.11-c2aacb7dd1b.tar.gz.hash
 - release: 0.21.2-win-unsigned
 - name: litecoin-core-win-0.21
 - type: build
